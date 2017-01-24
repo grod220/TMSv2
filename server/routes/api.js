@@ -13,6 +13,14 @@ router.get('/webhook', (req, res) => {
 // Handle incoming FB webhook verification
 router.post('/webhook', (req, res) => {
   console.log(req.body);
+  console.log(req.body.entry[0].changes);
+
+  // Convert to embeddable link
+
+  // Left to do: send to Firebase
+
+  // Setup front end to pull that ID from Firebase
+
   res.send('Yep, got it!')
 });
 
