@@ -12,7 +12,7 @@ router.get('/webhook', (req, res) => {
 
 // Handle incoming FB webhook verification
 router.post('/webhook', (req, res) => {
-  console.log(req);
+  console.log(req.body);
   res.send('Yep, got it!')
 });
 
