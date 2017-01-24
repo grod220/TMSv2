@@ -14,9 +14,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // Point static path to dist
 app.use(express.static(path.join(__dirname, 'dist')));
 
-// Set our api routes
-app.get('/api', (req, res) => {
-  res.send('api works');
+// Facebook verification
+app.get('/api/webhook', (req, res) => {
+  if(req.query['hub.verify_token'] === process.env.FBTOKEN) {
+    res.send(req.query['hub.challenge']);
+  } else {
+    res.send('No sir.')
+  }
 });
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
