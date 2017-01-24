@@ -15,7 +15,7 @@ router.post('/webhook', (req, res) => {
   console.log(req.body);
   console.log(req.body.entry[0].changes);
 
-  // Convert to embeddable link
+  // Send get request to FB for permalink
 
   // Left to do: send to Firebase
 
