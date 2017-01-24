@@ -2,8 +2,11 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
+const morgan = require('morgan');
+const chalk = require('chalk');
 
 const app = express();
+app.use(morgan('dev'));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -25,4 +28,6 @@ app.set('port', port);
 
 const server = http.createServer(app);
 
-server.listen(port, () => console.log(`API running on localhost:${port}`));
+server.listen(port, () => {
+  console.log(chalk.blue(`Meatballs listening on port ${port}! ♪♩♫♯♭`));
+});
