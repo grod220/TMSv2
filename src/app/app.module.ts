@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FbWidgetComponent
   ],
   imports: [
     BrowserModule,
