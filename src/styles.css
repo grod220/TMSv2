@@ -1,1 +1,177 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lora Regular'), local('Lora-Regular'), url(./assets/font/Lora-Regular.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+20B4, U+2DE0-2DFF, U+A640-A69F;
+}
+
+body {
+  font-family: Lora;
+}
+
+.global {
+  min-width: 991px;
+  overflow: auto;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: inline-block;
+  width: 100%;
+  height: 150px;
+}
+
+.sub-navbar {
+  display: inline-block;
+  width: 100%;
+  height: 50px;
+  background-color: #674d4d;
+  opacity: 0.64;
+  color: white;
+  position: relative;
+}
+
+[class*='link-item-'] {
+  position: absolute;
+  bottom: 25px;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+[class*='sub-link-'] {
+  font-size: 24px;
+  position: absolute;
+  bottom: 8px;
+}
+
+.link-item-1 {
+  left: 17%;
+}
+
+.link-item-2 {
+  left: 28%;
+}
+
+.link-item-3 {
+  left: 58%;
+}
+
+.link-item-4 {
+  left: 73%;
+}
+
+.sub-link-1 {
+  left: 22%;
+}
+
+.sub-link-2 {
+  left: 57%;
+}
+
+.logo {
+  position: absolute;
+  left: 39%;
+  background-color: transparent;
+  z-index: 999;
+}
+
+@media screen and (min-width: 1600px){
+  .link-item-1 {
+    left: 27%;
+  }
+
+  .link-item-2 {
+    left: 35%;
+  }
+
+  .logo {
+    left: 44%;
+  }
+
+  .link-item-3 {
+    left: 62%;
+  }
+
+  .link-item-4 {
+    left: 72%;
+  }
+
+  .sub-link-1 {
+    left: 28%;
+  }
+
+  .sub-link-2 {
+    left: 61.2%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1599px) {
+  .link-item-1 {
+    left: 18%;
+  }
+
+  .link-item-2 {
+    left: 29%;
+  }
+
+  .logo {
+    left: 40%;
+  }
+
+  .link-item-3 {
+    left: 64%;
+  }
+
+  .link-item-4 {
+    left: 78%;
+  }
+
+  .sub-link-1 {
+    left: 18%;
+  }
+
+  .sub-link-2 {
+    left: 63.5%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .link-item-1 {
+    left: 9%;
+  }
+
+  .link-item-2 {
+    left: 23%;
+  }
+
+  .logo {
+    left: 37%;
+  }
+
+  .link-item-3 {
+    left: 67%;
+  }
+
+  .link-item-4 {
+    left: 84%;
+  }
+
+  .sub-link-1 {
+    left: 10%;
+  }
+
+  .sub-link-2 {
+    left: 66%;
+  }
+}
+
+div [class*='sub-link-'] > a {
+  color: white;
+}
+
+div [class*='sub-link-'] > a:hover{
+  text-decoration: none;
+}
+
