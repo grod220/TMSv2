@@ -28,11 +28,14 @@ router.get('/webhook', (req, res) => {
   }
 });
 
-router.get('/fbtest', (req, res) => {
+// Handle incoming FB webhook verification
+router.post('/webhook', (req, res) => {
+  console.log(req.body);
+  console.log(req.body.entry[0].changes);
+  console.log('**************************');
   let options = {
-    // uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
     uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
-    json: true // Automatically parses the JSON string in the response
+    json: true
   };
 
   rp(options)
@@ -47,20 +50,6 @@ router.get('/fbtest', (req, res) => {
         res.send(err)
           console.log(err.body);
       });
-});
-
-// Handle incoming FB webhook verification
-router.post('/webhook', (req, res) => {
-  console.log(req.body);
-  console.log(req.body.entry[0].changes);
-  console.log('**************************');
-
-  // Send get request to FB for permalink
-
-  // Left to do: send to Firebase
-
-  // Setup front end to pull that ID from Firebase
-
   res.send('Yep, got it!')
 });
 
