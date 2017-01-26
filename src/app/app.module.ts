@@ -9,11 +9,11 @@ import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 import { AngularFireModule } from 'angularfire2';
 
 export const firebaseConfig = {
-  apiKey: process.env.FIREAPIKEY,
+  apiKey: "AIzaSyB04QxZsKSPCwUVLoUJzIduX82MYbr8FOg",
   authDomain: "the-meatball-stoppe.firebaseapp.com",
   databaseURL: "https://the-meatball-stoppe.firebaseio.com",
   storageBucket: "the-meatball-stoppe.appspot.com",
-  messagingSenderId: process.env.FIREMESSAGESENDER
+  messagingSenderId: "380386201370"
 };
 
 @NgModule({
