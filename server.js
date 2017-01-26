@@ -6,6 +6,9 @@ const morgan = require('morgan');
 const chalk = require('chalk');
 
 const app = express();
+
+require('dotenv').config()
+
 app.use(morgan('dev'));
 
 app.use(bodyParser.json());

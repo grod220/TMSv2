@@ -7,7 +7,7 @@ firebase.initializeApp({
   credential: firebase.credential.cert({
     "type": "service_account",
     "project_id": "the-meatball-stoppe",
-    "private_key_id": process.env.FIREPRIVATEKEYID,
+    "private_key_id": process.env.PRIVATEKEYID,
     "private_key": process.env.FIREPRIVATEKEY,
     "client_email": process.env.FIREEMAIL,
     "client_id": process.env.FIRECLIENTID,
@@ -31,7 +31,7 @@ router.get('/webhook', (req, res) => {
 router.get('/fbtest', (req, res) => {
   let options = {
     // uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
-    uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.FBACCESSTOKEN}`,
+    uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
     json: true // Automatically parses the JSON string in the response
   };
 
