@@ -48,9 +48,8 @@ router.post('/webhook', (req, res) => {
       })
       .catch(function (err) {
         res.send(err)
-          console.log(err.body);
+        console.log(err.body);
       });
-  res.send('Yep, got it!')
 });
 
 module.exports = router;
