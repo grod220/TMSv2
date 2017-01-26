@@ -7,7 +7,7 @@ firebase.initializeApp({
   credential: firebase.credential.cert({
     "type": "service_account",
     "project_id": "the-meatball-stoppe",
-    "private_key_id": process.env.PRIVATEKEYID,
+    "private_key_id": process.env.FIREPRIVATEKEYID,
     "private_key": process.env.FIREPRIVATEKEY,
     "client_email": process.env.FIREEMAIL,
     "client_id": process.env.FIRECLIENTID,
