@@ -6,6 +6,16 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 
+import { AngularFireModule } from 'angularfire2';
+
+export const firebaseConfig = {
+  apiKey: process.env.FIREAPIKEY,
+  authDomain: "the-meatball-stoppe.firebaseapp.com",
+  databaseURL: "https://the-meatball-stoppe.firebaseio.com",
+  storageBucket: "the-meatball-stoppe.appspot.com",
+  messagingSenderId: process.env.FIREMESSAGESENDER
+};
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,7 +24,8 @@ import { FbWidgetComponent } from './fb-widget/fb-widget.component';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
   bootstrap: [AppComponent]
