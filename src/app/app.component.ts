@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 
 @Component({
   selector: 'app-root',
