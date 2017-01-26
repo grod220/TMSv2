@@ -8,7 +8,7 @@ firebase.initializeApp({
     "type": "service_account",
     "project_id": "the-meatball-stoppe",
     "private_key_id": process.env.FIREPRIVATEKEYID,
-    "private_key": process.env.FIREPRIVATEKEY,
+    "private_key": process.env.FIREPRIVATEKEY.replace(/\\n/g, '\n'),
     "client_email": process.env.FIREEMAIL,
     "client_id": process.env.FIRECLIENTID,
     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
