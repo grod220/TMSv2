@@ -28,6 +28,10 @@ import { AppRoutingModule } from './app.routing';
 import { FooterComponent } from './shared/footer.component';
 import { HeroComponent } from './shared/hero.component';
 import { OurPassionComponent } from './shared/our-passion.component';
+import { HeaderComponent } from './shared/header.component';
+import { ActionBarComponent } from './shared/action-bar.component';
+import { ActionBarComponent } from './shared/action-bar.component';
+import { OurMenuComponent } from './shared/our-menu.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +40,9 @@ import { OurPassionComponent } from './shared/our-passion.component';
     MainComponent,
     FooterComponent,
     HeroComponent,
-    OurPassionComponent
+    OurPassionComponent,
+    HeaderComponent,
+    ActionBarComponent
   ],
   imports: [
     BrowserModule,
