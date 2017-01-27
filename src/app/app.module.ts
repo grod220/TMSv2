@@ -26,13 +26,15 @@ import { AppRoutingModule }             from './app.routing';
 //Shared 
 
 import { FooterComponent } from './shared/footer.component';
+import { HeroComponent } from './shared/hero.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FbWidgetComponent,
     MainComponent,
-    FooterComponent
+    FooterComponent,
+    HeroComponent
   ],
   imports: [
     BrowserModule,
