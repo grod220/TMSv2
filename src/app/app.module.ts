@@ -18,15 +18,16 @@ export const firebaseConfig = {
 };
 
 //Layouts
-import { MainComponent }          from './layouts/main.component';
+import { MainComponent } from './layouts/main.component';
 
 // Routing Module
-import { AppRoutingModule }             from './app.routing';
+import { AppRoutingModule } from './app.routing';
 
 //Shared 
 
 import { FooterComponent } from './shared/footer.component';
 import { HeroComponent } from './shared/hero.component';
+import { OurPassionComponent } from './shared/our-passion.component';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { HeroComponent } from './shared/hero.component';
     FbWidgetComponent,
     MainComponent,
     FooterComponent,
-    HeroComponent
+    HeroComponent,
+    OurPassionComponent
   ],
   imports: [
     BrowserModule,
