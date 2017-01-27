@@ -24,25 +24,30 @@ import { MainComponent } from './layouts/main.component';
 import { AppRoutingModule } from './app.routing';
 
 //Shared 
-
-import { FooterComponent } from './shared/footer.component';
-import { HeroComponent } from './shared/hero.component';
-import { OurPassionComponent } from './shared/our-passion.component';
 import { HeaderComponent } from './shared/header.component';
+import { HeroComponent } from './shared/hero.component';
 import { ActionBarComponent } from './shared/action-bar.component';
-import { ActionBarComponent } from './shared/action-bar.component';
+import { SocailBarComponent } from './shared/social-bar.component';
 import { OurMenuComponent } from './shared/our-menu.component';
+import { TestimonialComponent } from './shared/testimonials.component';
+import { MapComponent } from './shared/map.component';
+import { OurPassionComponent } from './shared/our-passion.component';
+import { FooterComponent } from './shared/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     FbWidgetComponent,
     MainComponent,
-    FooterComponent,
-    HeroComponent,
-    OurPassionComponent,
     HeaderComponent,
-    ActionBarComponent
+    HeroComponent,
+    ActionBarComponent,
+    SocailBarComponent,
+    OurMenuComponent,
+    TestimonialComponent,
+    MapComponent,
+    OurPassionComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
