@@ -6,6 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
+import { FooterComponent } from './shared/footer.component';
 
 import { AngularFireModule } from 'angularfire2';
 
@@ -26,7 +27,8 @@ import { AppRoutingModule }             from './app.routing';
   declarations: [
     AppComponent,
     FbWidgetComponent,
-    MainComponent
+    MainComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
