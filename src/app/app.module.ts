@@ -6,7 +6,6 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
-import { FooterComponent } from './shared/footer.component';
 
 import { AngularFireModule } from 'angularfire2';
 
@@ -20,8 +19,13 @@ export const firebaseConfig = {
 
 //Layouts
 import { MainComponent }          from './layouts/main.component';
+
 // Routing Module
 import { AppRoutingModule }             from './app.routing';
+
+//Shared 
+
+import { FooterComponent } from './shared/footer.component';
 
 @NgModule({
   declarations: [
