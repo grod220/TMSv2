@@ -49,11 +49,17 @@ footer a, footer a:hover{ color:#969595; }
 .hero-container{color: #fff; font-size: 30px;}
 .hero-container .message-block{padding-top: 300px; text-align: right;}
 
-.our-menu-head{ background: url(../images/our_menu.jpg) 0 0; height: 269px;background-size: cover;}
 .red_block{background: #902E2D;}
 
 .our-menu-container{padding-bottom: 120px;}
-.our-menu-head{text-align: center; padding-top: 70px;margin-bottom: 25px;}
+.our-menu-head{ 
+    text-align: center; 
+    padding-top: 128px;
+    margin-bottom: 25px;
+    background: url(../images/our_menu.jpg) no-repeat center 0;
+    background-size: auto 400px;
+    height: 400px;
+}
 .our-menu-container .nav-tabs>li{margin-bottom: 0;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
 .our-menu-container .nav-tabs>li>a{color:#bbb;}
@@ -153,6 +159,7 @@ footer a, footer a:hover{ color:#969595; }
     margin-right: 25px;}
 @media only screen and (max-width: 1140px) {
     .our-passion-content{padding: 0 5%;}
+    .navbar-default .navbar-nav>li>a{font-size: 18px;}
 } 
 
 @media only screen and (max-width: 992px) {
@@ -162,6 +169,7 @@ footer a, footer a:hover{ color:#969595; }
     .our-menu-container .nav-tabs{width: 80%;}
     .what-they-are-saying-container h2{width: 75%;}
     footer .container .col-sm-12{text-align: center;}
+     body{font-size: 16px;    line-height: 22px;}
 }
 @media only screen and (max-width: 852px) {
     .our-passion-content{padding: 0 1%;}
@@ -200,6 +208,12 @@ footer a, footer a:hover{ color:#969595; }
     .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
     .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
     .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
+    .our-menu-head{ 
+        padding-top: 123px;
+        background-size: auto 300px;
+        height: 300px;
+    }
+
 }
 
 
@@ -219,6 +233,11 @@ footer a, footer a:hover{ color:#969595; }
         line-height: 38px;
         padding-top: 30px;
         padding-bottom: 30px;
+    }
+    .our-menu-head{ 
+        padding-top: 209px;
+        background-size: auto 562px;
+        height: 562px;
     }
 } 
 
