@@ -8,7 +8,7 @@ import { MainComponent }      from './layouts/main.component';
 export const routes: Routes = [
     {
         path: '',
-        redirectTo: 'home',
+        redirectTo: '/',
         pathMatch: 'full',
     },
     {
@@ -19,7 +19,7 @@ export const routes: Routes = [
         },
         children: [
             {
-                path: 'home',
+                path: '',
                 loadChildren: 'app/home/home.module#HomeModule'
             }
         ]
