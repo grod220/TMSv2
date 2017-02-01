@@ -20,6 +20,7 @@ header{padding-top:  100px;}
 .logo{ position: absolute;margin-top: -50px;}
 
 .navbar{margin-bottom: 0; border: none;}
+.navbar-default{background-color: #fff;}
 .navbar-default .navbar-nav>li>a{color: #000;font-size: 20px;}
 .navbar-default .navbar-nav>li.active>a, 
 .navbar-default .navbar-nav>li.active>a:focus, 
