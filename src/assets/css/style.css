@@ -1,5 +1,5 @@
 body{
-      font-size:16px; 
+      font-size:18px; 
       line-height:22px; 
       font-family: 'Vollkorn', serif;  
       
@@ -21,7 +21,7 @@ header{padding-top:  45px;}
 
 .navbar{margin-bottom: 0; border: none;}
 .navbar-default{background-color: #fff;}
-.navbar-default .navbar-nav>li>a{color: #000;font-size: 20px;}
+.navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
 .navbar-default .navbar-nav>li.active>a, 
 .navbar-default .navbar-nav>li.active>a:focus, 
 .navbar-default .navbar-nav>li.active>a:hover,
@@ -97,12 +97,12 @@ footer a, footer a:hover{ color:#969595; }
 .action-bar-container .container a{
     background: #fff; 
     color: #902E2D; 
-    font-size: 22px; 
+    font-size: 24px; 
     width: 100%; 
     border-radius: 0;
     border: 2px solid #902E2D; 
     outline: 3px solid #fff;
-    text-transform: uppercase;
+    text-transform: capitalize;
 
  }
 
@@ -203,6 +203,24 @@ footer a, footer a:hover{ color:#969595; }
 }
 
 
+@media only screen and (min-width: 1400px) {
+    body{font-size: 22px;    line-height: 28px;}
+    .our-menu-container .nav-tabs{width: 60%;}
+    .hero-container .message-block {
+        padding-top: 280px;
+    }
+    .hero-container {
+         font-size: 36px;
+         line-height: 35px;
+    }
+    .action-bar-container .container a{font-size: 30px;}
+    .social-block h4 {
+        font-size: 55px;
+        line-height: 38px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+} 
 
 
 
