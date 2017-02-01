@@ -1,5 +1,5 @@
 body{
-      font-size:16px; 
+      font-size:18px; 
       line-height:22px; 
       font-family: 'Vollkorn', serif;  
       
@@ -16,11 +16,12 @@ h4{font-size:20px; line-height:24px;}
 h5{font-size:16px; line-height:21px;}
 h6{font-size:14px;}
 
-header{padding-top:  100px;}
+header{padding-top:  45px;}
 .logo{ position: absolute;margin-top: -50px;}
 
 .navbar{margin-bottom: 0; border: none;}
-.navbar-default .navbar-nav>li>a{color: #000;font-size: 20px;}
+.navbar-default{background-color: #fff;}
+.navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
 .navbar-default .navbar-nav>li.active>a, 
 .navbar-default .navbar-nav>li.active>a:focus, 
 .navbar-default .navbar-nav>li.active>a:hover,
@@ -30,7 +31,7 @@ header{padding-top:  100px;}
     margin-right: 0px;
 }
 .head-block-shad{
-    background: rgba(0,0,0,0.35);
+    background: rgba(103,77,77,0.64);
     color: #fff;
     position: absolute;
     width: 100%;
@@ -48,11 +49,17 @@ footer a, footer a:hover{ color:#969595; }
 .hero-container{color: #fff; font-size: 30px;}
 .hero-container .message-block{padding-top: 300px; text-align: right;}
 
-.our-menu-head{ background: url(../images/our_menu.jpg) 0 0; height: 269px;background-size: cover;}
 .red_block{background: #902E2D;}
 
 .our-menu-container{padding-bottom: 120px;}
-.our-menu-head{text-align: center; padding-top: 70px;margin-bottom: 25px;}
+.our-menu-head{ 
+    text-align: center; 
+    padding-top: 128px;
+    margin-bottom: 25px;
+    background: url(../images/our_menu.jpg) no-repeat center 0;
+    background-size: auto 400px;
+    height: 400px;
+}
 .our-menu-container .nav-tabs>li{margin-bottom: 0;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
 .our-menu-container .nav-tabs>li>a{color:#bbb;}
@@ -96,11 +103,12 @@ footer a, footer a:hover{ color:#969595; }
 .action-bar-container .container a{
     background: #fff; 
     color: #902E2D; 
-    font-size: 20px; 
+    font-size: 24px; 
     width: 100%; 
     border-radius: 0;
     border: 2px solid #902E2D; 
     outline: 3px solid #fff;
+    text-transform: capitalize;
 
  }
 
@@ -137,7 +145,7 @@ footer a, footer a:hover{ color:#969595; }
     background-repeat: no-repeat;
  }
 
-.logo img{width: 160px;}
+.logo img{/*width: 160px;*/}
 
 
 
@@ -151,6 +159,7 @@ footer a, footer a:hover{ color:#969595; }
     margin-right: 25px;}
 @media only screen and (max-width: 1140px) {
     .our-passion-content{padding: 0 5%;}
+    .navbar-default .navbar-nav>li>a{font-size: 18px;}
 } 
 
 @media only screen and (max-width: 992px) {
@@ -160,6 +169,7 @@ footer a, footer a:hover{ color:#969595; }
     .our-menu-container .nav-tabs{width: 80%;}
     .what-they-are-saying-container h2{width: 75%;}
     footer .container .col-sm-12{text-align: center;}
+     body{font-size: 16px;    line-height: 22px;}
 }
 @media only screen and (max-width: 852px) {
     .our-passion-content{padding: 0 1%;}
@@ -189,8 +199,7 @@ footer a, footer a:hover{ color:#969595; }
     .action-bar-container .col-xs-12:first-child{padding-bottom: 20px;}
     .head-block-shad .col-xs-12{text-align: center;}
     .hero-container{padding-right: 5%;}
-    .small-logo-container{width: 100px;
-    margin: 0 auto 20px;}
+    .small-logo-container{width: 100px;  margin: 0 auto 15px;}
     header{padding-top: 0;}
 
     .navbar-default .navbar-collapse{background: #2D2D2D;}
@@ -199,9 +208,38 @@ footer a, footer a:hover{ color:#969595; }
     .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
     .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
     .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
+    .our-menu-head{ 
+        padding-top: 123px;
+        background-size: auto 300px;
+        height: 300px;
+    }
+
 }
 
 
+@media only screen and (min-width: 1400px) {
+    body{font-size: 22px;    line-height: 28px;}
+    .our-menu-container .nav-tabs{width: 60%;}
+    .hero-container .message-block {
+        padding-top: 280px;
+    }
+    .hero-container {
+         font-size: 36px;
+         line-height: 35px;
+    }
+    .action-bar-container .container a{font-size: 30px;}
+    .social-block h4 {
+        font-size: 55px;
+        line-height: 38px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .our-menu-head{ 
+        padding-top: 209px;
+        background-size: auto 562px;
+        height: 562px;
+    }
+} 
 
 
 
