@@ -16,7 +16,7 @@ h4{font-size:20px; line-height:24px;}
 h5{font-size:16px; line-height:21px;}
 h6{font-size:14px;}
 
-header{padding-top:  100px;}
+header{padding-top:  45px;}
 .logo{ position: absolute;margin-top: -50px;}
 
 .navbar{margin-bottom: 0; border: none;}
@@ -191,8 +191,7 @@ footer a, footer a:hover{ color:#969595; }
     .action-bar-container .col-xs-12:first-child{padding-bottom: 20px;}
     .head-block-shad .col-xs-12{text-align: center;}
     .hero-container{padding-right: 5%;}
-    .small-logo-container{width: 100px;
-    margin: 0 auto 20px;}
+    .small-logo-container{width: 100px;  margin: 0 auto 15px;}
     header{padding-top: 0;}
 
     .navbar-default .navbar-collapse{background: #2D2D2D;}
