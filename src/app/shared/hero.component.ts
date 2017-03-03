@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
 	moduleId: module.id,
 	selector: 'hero-block',
 	templateUrl: './hero.component.html',
-	styleUrls: ['app/shared/hero.component.css']
+	styleUrls: ['./hero.component.css']
 })
 export class HeroComponent  {
 	
