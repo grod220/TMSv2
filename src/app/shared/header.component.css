@@ -1,0 +1,24 @@
+header{padding-top:  45px;}
+.logo{ position: absolute;margin-top: -50px;}
+
+.navbar{margin-bottom: 0; border: none;}
+.navbar-default{background-color: #fff;}
+.navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
+.navbar-default .navbar-nav>li.active>a, 
+.navbar-default .navbar-nav>li.active>a:focus, 
+.navbar-default .navbar-nav>li.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover{background: none; color:#902E2D; }
+.navbar-right {
+    float: right!important;
+    margin-right: 0px;
+}
+.head-block-shad{
+    background: rgba(103,77,77,0.64);
+    color: #fff;
+    position: absolute;
+    width: 100%;
+    padding: 5px 0;
+
+}
+.head-block-shad .first{text-align: right;}
+.head-block-shad .last{text-align: left;}
