@@ -4,9 +4,6 @@ body{
       font-family: 'Vollkorn', serif;  
       
 }
-ul, li , ol{ list-style: none;}
-a, a:hover{ text-decoration: none;color:##555555;outline: none;} 
-a.red{color:#902E2D;}
 h1, h2, h3, h4, h5, h6{font-family: 'Dancing Script', cursive;}
 h1{font-size:6em; line-height:54px; color: #fff;}
 h2{font-size:3em; color: #fff;}
@@ -14,90 +11,36 @@ h3{font-size:24px; }
 h4{font-size:20px; line-height:24px;}
 h5{font-size:16px; line-height:21px;}
 h6{font-size:14px;}
+ul, li , ol{ list-style: none;}
+a, a:hover{ text-decoration: none;color:##555555;outline: none;} 
+a.red{color:#902E2D;}
 .red_block{background: #902E2D;}
 .row{margin-right: 0px; margin-left: 0px; }
 .p-0{padding: 0;}
 
-
-
-
 @media only screen and (max-width: 992px) {
-    .logo img{width: 120px;}
-    .logo{    margin-top: -28px;}
-    .ads-block{margin-top: 0;}
-    .our-menu-container .nav-tabs{width: 80%;}
-    .what-they-are-saying-container h2{width: 75%;}
-    footer .container .col-sm-12{text-align: center;}
+   
      body{font-size: 16px;    line-height: 22px;}
 }
 @media only screen and (max-width: 852px) {
-    .our-passion-content{padding: 0 1%;}
+ 
     h2{font-size: 2em;}
-    .social-block h4{font-size: 36px;}
+
 }
 @media only screen and (max-width: 767px) {
-    footer .container, footer{padding-left: 0; padding-right: 0;}
-    /*.col-xs-12{padding-bottom: 30px;}*/
-    .our-menu-container .nav-tabs{width: auto;}
-    .our-passion-container .col-xs-12{padding-bottom: 0px;}
-    .our-passion-content.col-xs-12{padding-top: 40px; padding-bottom: 40px;}
     
-    .what-they-are-saying-container h2{width: 100%;    margin: -75px auto 25px auto;}
     h1{font-size:4em; line-height:54px; color: #fff;}
     h2{font-size:2em; color: #fff;}
     h3{font-size:24px; }
     h4{font-size:30px; line-height:24px;}
     h5{font-size:16px; line-height:21px;}
     h6{font-size:14px;}
-    .social-block h4{font-size: 30px;}
-    .what-they-are-saying-container p.see_more{font-size: 20px;}
-    .hero-container {
-            font-size: 20px;
-    }
-    .head-block-shad .col-xs-12:first-child{padding-bottom: 5px;}
-    .action-bar-container .col-xs-12:first-child{padding-bottom: 20px;}
-    .head-block-shad .col-xs-12{text-align: center;}
-    .hero-container{padding-right: 5%;}
-    .small-logo-container{width: 100px;  margin: 0 auto 15px;}
-    header{padding-top: 0;}
-
-    .navbar-default .navbar-collapse{background: #2D2D2D;}
-    .navbar-default .navbar-collapse  .navbar-nav>li>a{color: #fff;}
-    .navbar-default .navbar-collapse .col-xs-12{padding-bottom: 0;}
-    .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
-    .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
-    .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
-    .our-menu-head{ 
-        padding-top: 123px;
-        background-size: auto 300px;
-        height: 300px;
-    }
-
+ 
 }
-
 
 @media only screen and (min-width: 1400px) {
     body{font-size: 22px;    line-height: 28px;}
-    .our-menu-container .nav-tabs{width: 60%;}
-    .hero-container .message-block {
-        padding-top: 280px;
-    }
-    .hero-container {
-         font-size: 36px;
-         line-height: 35px;
-    }
-    .action-bar-container .container a{font-size: 30px;}
-    .social-block h4 {
-        font-size: 55px;
-        line-height: 38px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .our-menu-head{ 
-        padding-top: 209px;
-        background-size: auto 562px;
-        height: 562px;
-    }
+    
 } 
 
 
