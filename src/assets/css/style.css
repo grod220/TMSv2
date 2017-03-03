@@ -19,10 +19,7 @@ h6{font-size:14px;}
 .p-0{padding: 0;}
 
 
-@media only screen and (max-width: 1140px) {
-    .our-passion-content{padding: 0 5%;}
-    .navbar-default .navbar-nav>li>a{font-size: 18px;}
-} 
+
 
 @media only screen and (max-width: 992px) {
     .logo img{width: 120px;}
