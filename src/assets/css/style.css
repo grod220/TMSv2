@@ -18,31 +18,6 @@ h6{font-size:14px;}
 
 .red_block{background: #902E2D;}
 
-.our-menu-container{padding-bottom: 120px;}
-.our-menu-head{ 
-    text-align: center; 
-    padding-top: 128px;
-    margin-bottom: 25px;
-    background: url(../images/our_menu.jpg) no-repeat center 0;
-    background-size: auto 400px;
-    height: 400px;
-}
-.our-menu-container .nav-tabs>li{margin-bottom: 0;}
-.our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
-.our-menu-container .nav-tabs>li>a{color:#bbb;}
-.our-menu-container .nav-tabs{    width: 50%;    margin: 0 auto 50px;}
-.our-menu-container p{color: #999;}
-.our-menu-container p.heading{ text-transform: uppercase; color: #000; font-weight: bold;}
-.our-menu-container .tab-content .tab-pane .col-xs-12{ padding-bottom: 20px;}
-.our-menu-container .nav-tabs>li.active {
-       margin-bottom: -1px;
-    border-bottom: 1px solid red;
-    margin-top: 2px;
-
-}
-.our-menu-container .nav-tabs>li>a:hover, 
-.our-menu-container .nav-tabs>li.active a:hover,
-.our-menu-container .nav-tabs>li.active a{background: none; border:1px solid transparent; color:#000;}
 
 
 .what-they-are-saying-container p.see_more{font-size: 24px; font-style: italic; text-align: center; padding: 20px 0;}
