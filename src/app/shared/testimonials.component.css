@@ -8,3 +8,11 @@
   padding: 2px 20px 8px;
   text-align: center;  
 }
+@media only screen and (max-width: 992px) {
+  
+    .what-they-are-saying-container h2{width: 75%;}
+}
+@media only screen and (max-width: 767px) {
+    .what-they-are-saying-container h2{width: 100%;    margin: -75px auto 25px auto;}
+    .what-they-are-saying-container p.see_more{font-size: 20px;}
+}        

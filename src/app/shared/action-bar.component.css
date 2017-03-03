@@ -10,3 +10,10 @@
 
  }
  .action-bar-container .container{padding-top: 20px; padding-bottom: 20px;}
+
+ @media only screen and (max-width: 767px) {
+ 	.action-bar-container .col-xs-12:first-child{padding-bottom: 20px;}
+ }
+ @media only screen and (min-width: 1400px) {
+ 	 .action-bar-container .container a{font-size: 30px;}
+ }

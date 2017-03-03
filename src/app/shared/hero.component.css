@@ -1,3 +1,10 @@
 .hero-container{background: url(assets/images/hero.jpg) 0 0; height: 400px;background-size: cover; padding-right: 20%;}
 .hero-container{color: #fff; font-size: 30px;}
 .hero-container .message-block{padding-top: 300px; text-align: right;}
+@media only screen and (max-width: 767px) {
+	.hero-container {         font-size: 20px;   padding-right: 5%;}
+}
+@media only screen and (min-width: 1400px) {
+	.hero-container .message-block {        padding-top: 280px;    }
+    .hero-container {         font-size: 36px;         line-height: 35px;    }
+}

@@ -4,3 +4,11 @@
 @media only screen and (max-width: 1140px) {
     .our-passion-content{padding: 0 5%;}
 } 
+@media only screen and (max-width: 852px) {
+    .our-passion-content{padding: 0 1%;}
+ }
+ 
+ @media only screen and (max-width: 767px) {
+ 	.our-passion-container .col-xs-12{padding-bottom: 0px;}
+    .our-passion-content.col-xs-12{padding-top: 40px; padding-bottom: 40px;}
+ }   

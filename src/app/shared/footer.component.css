@@ -1,3 +1,10 @@
 footer{padding:50px 0px ; background:#2D2D2D;color:#969595; }  
 footer li{padding-bottom: 4px; }
 footer a, footer a:hover{ color:#969595; } 
+@media only screen and (max-width: 992px) {
+    footer .container .col-sm-12{text-align: center;}
+    
+}
+@media only screen and (max-width: 767px) {
+    footer .container, footer{padding-left: 0; padding-right: 0;}
+}    

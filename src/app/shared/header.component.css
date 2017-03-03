@@ -1,6 +1,5 @@
 header{padding-top:  45px;}
 .logo{ position: absolute;margin-top: -50px;}
-
 .navbar{margin-bottom: 0; border: none;}
 .navbar-default{background-color: #fff;}
 .navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
@@ -8,10 +7,7 @@ header{padding-top:  45px;}
 .navbar-default .navbar-nav>li.active>a:focus, 
 .navbar-default .navbar-nav>li.active>a:hover,
 .navbar-default .navbar-nav>li>a:hover{background: none; color:#902E2D; }
-.navbar-right {
-    float: right!important;
-    margin-right: 0px;
-}
+.navbar-right {    float: right!important;   margin-right: 0px;}
 .head-block-shad{
     background: rgba(103,77,77,0.64);
     color: #fff;
@@ -28,10 +24,27 @@ header{padding-top:  45px;}
     height: 6px;
     border-radius: 1px;
 }
-.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;
-    margin-right: 25px;}
-    
+.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;   margin-right: 25px;}
+
 @media only screen and (max-width: 1140px) {
     
     .navbar-default .navbar-nav>li>a{font-size: 18px;}
 } 
+
+@media only screen and (max-width: 992px) {
+    .logo img{width: 120px;}
+    .logo{    margin-top: -28px;}
+}
+
+@media only screen and (max-width: 767px) {
+	.head-block-shad .col-xs-12:first-child{padding-bottom: 5px;}
+    .head-block-shad .col-xs-12{text-align: center;}
+    header{padding-top: 0;}
+    .navbar-default .navbar-collapse{background: #2D2D2D;}
+    .navbar-default .navbar-collapse  .navbar-nav>li>a{color: #fff;}
+    .navbar-default .navbar-collapse .col-xs-12{padding-bottom: 0;}
+    .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
+    .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
+    .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
+    .small-logo-container{width: 100px;  margin: 0 auto 15px;}
+}
