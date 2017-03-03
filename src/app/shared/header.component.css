@@ -22,3 +22,11 @@ header{padding-top:  45px;}
 }
 .head-block-shad .first{text-align: right;}
 .head-block-shad .last{text-align: left;}
+.navbar-toggle .icon-bar {
+    display: block;
+    width: 45px;
+    height: 6px;
+    border-radius: 1px;
+}
+.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;
+    margin-right: 25px;}

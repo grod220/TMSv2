@@ -19,20 +19,6 @@ h6{font-size:14px;}
 .p-0{padding: 0;}
 
 
-
- 
-.logo img{/*width: 160px;*/}
-
-
-
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 45px;
-    height: 6px;
-    border-radius: 1px;
-}
-.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;
-    margin-right: 25px;}
 @media only screen and (max-width: 1140px) {
     .our-passion-content{padding: 0 5%;}
     .navbar-default .navbar-nav>li>a{font-size: 18px;}
