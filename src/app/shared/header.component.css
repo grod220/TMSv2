@@ -30,3 +30,8 @@ header{padding-top:  45px;}
 }
 .navbar-toggle{border:none;margin-top: 50px;background-color: #eee;
     margin-right: 25px;}
+    
+@media only screen and (max-width: 1140px) {
+    
+    .navbar-default .navbar-nav>li>a{font-size: 18px;}
+} 
