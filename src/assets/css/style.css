@@ -4,10 +4,6 @@ body{
       font-family: 'Vollkorn', serif;  
       
 }
-ul, li , ol{ list-style: none;}
-a, a:hover{ text-decoration: none;color:##555555;outline: none;} 
-
-a.red{color:#902E2D;}
 h1, h2, h3, h4, h5, h6{font-family: 'Dancing Script', cursive;}
 h1{font-size:6em; line-height:54px; color: #fff;}
 h2{font-size:3em; color: #fff;}
@@ -15,230 +11,36 @@ h3{font-size:24px; }
 h4{font-size:20px; line-height:24px;}
 h5{font-size:16px; line-height:21px;}
 h6{font-size:14px;}
-
-header{padding-top:  45px;}
-.logo{ position: absolute;margin-top: -50px;}
-
-.navbar{margin-bottom: 0; border: none;}
-.navbar-default{background-color: #fff;}
-.navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
-.navbar-default .navbar-nav>li.active>a, 
-.navbar-default .navbar-nav>li.active>a:focus, 
-.navbar-default .navbar-nav>li.active>a:hover,
-.navbar-default .navbar-nav>li>a:hover{background: none; color:#902E2D; }
-.navbar-right {
-    float: right!important;
-    margin-right: 0px;
-}
-.head-block-shad{
-    background: rgba(103,77,77,0.64);
-    color: #fff;
-    position: absolute;
-    width: 100%;
-    padding: 5px 0;
-
-}
-.head-block-shad .first{text-align: right;}
-.head-block-shad .last{text-align: left;}
-
-footer{padding:50px 0px ; background:#2D2D2D;color:#969595; }  
-footer li{padding-bottom: 4px; }
-footer a, footer a:hover{ color:#969595; } 
-
-.hero-container{background: url(../images/hero.jpg) 0 0; height: 400px;background-size: cover; padding-right: 20%;}
-.hero-container{color: #fff; font-size: 30px;}
-.hero-container .message-block{padding-top: 300px; text-align: right;}
-
+ul, li , ol{ list-style: none;}
+a, a:hover{ text-decoration: none;color:##555555;outline: none;} 
+a.red{color:#902E2D;}
 .red_block{background: #902E2D;}
-
-.our-menu-container{padding-bottom: 120px;}
-.our-menu-head{ 
-    text-align: center; 
-    padding-top: 128px;
-    margin-bottom: 25px;
-    background: url(../images/our_menu.jpg) no-repeat center 0;
-    background-size: auto 400px;
-    height: 400px;
-}
-.our-menu-container .nav-tabs>li{margin-bottom: 0;}
-.our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
-.our-menu-container .nav-tabs>li>a{color:#bbb;}
-.our-menu-container .nav-tabs{    width: 50%;    margin: 0 auto 50px;}
-.our-menu-container p{color: #999;}
-.our-menu-container p.heading{ text-transform: uppercase; color: #000; font-weight: bold;}
-.our-menu-container .tab-content .tab-pane .col-xs-12{ padding-bottom: 20px;}
-.our-menu-container .nav-tabs>li.active {
-       margin-bottom: -1px;
-    border-bottom: 1px solid red;
-    margin-top: 2px;
-
-}
-.our-menu-container .nav-tabs>li>a:hover, 
-.our-menu-container .nav-tabs>li.active a:hover,
-.our-menu-container .nav-tabs>li.active a{background: none; border:1px solid transparent; color:#000;}
-
-
-.what-they-are-saying-container p.see_more{font-size: 24px; font-style: italic; text-align: center; padding: 20px 0;}
-.what-they-are-saying-container .container{border: 5px solid #902E2D; padding: 30px 30px 40px;}
-.what-they-are-saying-container h2{    
-  margin-top: -70px;
-  border: 20px solid #fff;
-  width: 60%;
-  margin: -86px auto 25px auto;
-  padding: 2px 20px 8px;
-  text-align: center;  
-}
-
-.map-container{padding-top: 50px;}
-
-.our-passion-container{ background: #902E2D;}
-.our-passion-content{padding: 50px 10% 40px 10%;}
-.our-passion-content p{color:#fff;}
 .row{margin-right: 0px; margin-left: 0px; }
 .p-0{padding: 0;}
 
-
-
-.action-bar-container .container, .social-container .container{padding-top: 20px; padding-bottom: 20px;}
-.action-bar-container .container a{
-    background: #fff; 
-    color: #902E2D; 
-    font-size: 24px; 
-    width: 100%; 
-    border-radius: 0;
-    border: 2px solid #902E2D; 
-    outline: 3px solid #fff;
-    text-transform: capitalize;
-
- }
-
-
-.social-container .container{padding-bottom: 30px;}
-.social-block{ padding: 20px 5%; font-size: 24px; line-height: 30px; font-weight: normal;}
-.social-block h4{font-size: 45px; line-height: 30px; padding-top: 30px; padding-bottom:  30px;}
-.social-block ul li{ float: left; padding-left: 20px;}
-.social-block ul li:first-child{padding-left: 0;}
-.social-block ul{display: inline-block;clear: both; margin:0; padding: 0;}
-.ads-block{    
-    -webkit-box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
-    -moz-box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
-    box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
-    
-    margin-top: -65px;
-    background: #fff;
-    padding: 10px;
-}
- .ads-block .content-block{
-    position: absolute;
-    bottom: 0px;
-    width: calc(100% - 50px);
-    background: rgba(255,255,255,0.60);
-    
- }
- .ads-block .content-block p.title{font-size: 20px;padding:20px 10% 0px; margin-bottom:0; }
- .ads-block .content-block p.links{padding:10px; text-align: right;}
- .ads-block .content-block p.links .btn.like{
-
-    background: #eee url(../images/like.png) left -1px;
-    padding-left: 33px;
-    background-size: 35px auto;
-    background-repeat: no-repeat;
- }
-
-.logo img{/*width: 160px;*/}
-
-
-
-.navbar-toggle .icon-bar {
-    display: block;
-    width: 45px;
-    height: 6px;
-    border-radius: 1px;
-}
-.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;
-    margin-right: 25px;}
-@media only screen and (max-width: 1140px) {
-    .our-passion-content{padding: 0 5%;}
-    .navbar-default .navbar-nav>li>a{font-size: 18px;}
-} 
-
 @media only screen and (max-width: 992px) {
-    .logo img{width: 120px;}
-    .logo{    margin-top: -28px;}
-    .ads-block{margin-top: 0;}
-    .our-menu-container .nav-tabs{width: 80%;}
-    .what-they-are-saying-container h2{width: 75%;}
-    footer .container .col-sm-12{text-align: center;}
+   
      body{font-size: 16px;    line-height: 22px;}
 }
 @media only screen and (max-width: 852px) {
-    .our-passion-content{padding: 0 1%;}
+ 
     h2{font-size: 2em;}
-    .social-block h4{font-size: 36px;}
+
 }
 @media only screen and (max-width: 767px) {
-    footer .container, footer{padding-left: 0; padding-right: 0;}
-    /*.col-xs-12{padding-bottom: 30px;}*/
-    .our-menu-container .nav-tabs{width: auto;}
-    .our-passion-container .col-xs-12{padding-bottom: 0px;}
-    .our-passion-content.col-xs-12{padding-top: 40px; padding-bottom: 40px;}
     
-    .what-they-are-saying-container h2{width: 100%;    margin: -75px auto 25px auto;}
     h1{font-size:4em; line-height:54px; color: #fff;}
     h2{font-size:2em; color: #fff;}
     h3{font-size:24px; }
     h4{font-size:30px; line-height:24px;}
     h5{font-size:16px; line-height:21px;}
     h6{font-size:14px;}
-    .social-block h4{font-size: 30px;}
-    .what-they-are-saying-container p.see_more{font-size: 20px;}
-    .hero-container {
-            font-size: 20px;
-    }
-    .head-block-shad .col-xs-12:first-child{padding-bottom: 5px;}
-    .action-bar-container .col-xs-12:first-child{padding-bottom: 20px;}
-    .head-block-shad .col-xs-12{text-align: center;}
-    .hero-container{padding-right: 5%;}
-    .small-logo-container{width: 100px;  margin: 0 auto 15px;}
-    header{padding-top: 0;}
-
-    .navbar-default .navbar-collapse{background: #2D2D2D;}
-    .navbar-default .navbar-collapse  .navbar-nav>li>a{color: #fff;}
-    .navbar-default .navbar-collapse .col-xs-12{padding-bottom: 0;}
-    .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
-    .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
-    .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
-    .our-menu-head{ 
-        padding-top: 123px;
-        background-size: auto 300px;
-        height: 300px;
-    }
-
+ 
 }
-
 
 @media only screen and (min-width: 1400px) {
     body{font-size: 22px;    line-height: 28px;}
-    .our-menu-container .nav-tabs{width: 60%;}
-    .hero-container .message-block {
-        padding-top: 280px;
-    }
-    .hero-container {
-         font-size: 36px;
-         line-height: 35px;
-    }
-    .action-bar-container .container a{font-size: 30px;}
-    .social-block h4 {
-        font-size: 55px;
-        line-height: 38px;
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-    .our-menu-head{ 
-        padding-top: 209px;
-        background-size: auto 562px;
-        height: 562px;
-    }
+    
 } 
 
 
