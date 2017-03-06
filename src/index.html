@@ -26,6 +26,12 @@
 </head>
 <body>
   <script>
+    if ('serviceWorker' in navigator) {
+      // empty service worker to allow homescreen popup
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+  <script>
     window.fbAsyncInit = function() {
       FB.init({
         appId      : '1828570360690824',
