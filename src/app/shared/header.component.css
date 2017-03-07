@@ -3,8 +3,8 @@ header{padding-top:  45px;}
 .navbar{margin-bottom: 0; border: none;}
 .navbar-default{background-color: #fff;}
 .navbar-default .navbar-nav>li>a{color: #000;font-size: 24px;}
-.navbar-default .navbar-nav>li.active>a, 
-.navbar-default .navbar-nav>li.active>a:focus, 
+.navbar-default .navbar-nav>li.active>a,
+.navbar-default .navbar-nav>li.active>a:focus,
 .navbar-default .navbar-nav>li.active>a:hover,
 .navbar-default .navbar-nav>li>a:hover{background: none; color:#902E2D; }
 .navbar-right {    float: right!important;   margin-right: 0px;}
@@ -14,7 +14,8 @@ header{padding-top:  45px;}
     position: absolute;
     width: 100%;
     padding: 5px 0;
-
+    font-size: 18px;
+    line-height: 22px;
 }
 .head-block-shad .first{text-align: right;}
 .head-block-shad .last{text-align: left;}
@@ -26,13 +27,7 @@ header{padding-top:  45px;}
 }
 .navbar-toggle{border:none;margin-top: 50px;background-color: #eee;   margin-right: 25px;}
 
-@media only screen and (max-width: 1140px) {
-    
-    .navbar-default .navbar-nav>li>a{font-size: 18px;}
-} 
-
 @media only screen and (max-width: 992px) {
-    .logo img{width: 120px;}
     .logo{    margin-top: -28px;}
 }
 
