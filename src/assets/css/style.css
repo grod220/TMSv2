@@ -1,8 +1,8 @@
 body{
-      font-size:18px; 
-      line-height:22px; 
-      font-family: 'Vollkorn', serif;  
-      
+      font-size:18px;
+      line-height:22px;
+      font-family: 'Vollkorn', serif;
+
 }
 h1, h2, h3, h4, h5, h6{font-family: 'Dancing Script', cursive;}
 h1{font-size:6em; line-height:54px; color: #fff;}
@@ -12,52 +12,33 @@ h4{font-size:20px; line-height:24px;}
 h5{font-size:16px; line-height:21px;}
 h6{font-size:14px;}
 ul, li , ol{ list-style: none;}
-a, a:hover{ text-decoration: none;color:##555555;outline: none;} 
+a, a:hover{ text-decoration: none;color:##555555;outline: none;}
 a.red{color:#902E2D;}
 .red_block{background: #902E2D;}
 .row{margin-right: 0px; margin-left: 0px; }
 .p-0{padding: 0;}
 
 @media only screen and (max-width: 992px) {
-   
+
      body{font-size: 16px;    line-height: 22px;}
 }
 @media only screen and (max-width: 852px) {
- 
+
     h2{font-size: 2em;}
 
 }
 @media only screen and (max-width: 767px) {
-    
+
     h1{font-size:4em; line-height:54px; color: #fff;}
     h2{font-size:2em; color: #fff;}
     h3{font-size:24px; }
     h4{font-size:30px; line-height:24px;}
     h5{font-size:16px; line-height:21px;}
     h6{font-size:14px;}
- 
+
 }
 
 @media only screen and (min-width: 1400px) {
     body{font-size: 22px;    line-height: 28px;}
-    
-} 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
