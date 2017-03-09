@@ -9,7 +9,7 @@ import { WindowRef } from './windowRef';
 })
 export class FbWidgetComponent implements OnInit {
   fbURL:string;
-  fbImageURL:string = "https://scontent.xx.fbcdn.net/v/t1.0-9/17155219_1351938081494751_5330889908933435845_n.jpg?oh=a57d41a0939478938712ac54e940482f&oe=5936D16D";
+  fbImageURL:string = "https://scontent.xx.fbcdn.net/v/t1.0-9/17103339_1354465297908696_2042452126678539110_n.jpg?oh=a532c9c4996eef69e471170a7e13424c&oe=5964BDEA";
   fbMessage:string;
 
   item: FirebaseObjectObservable<any>;
