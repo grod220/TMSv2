@@ -34,17 +34,21 @@ router.post('/webhook', (req, res) => {
   console.log(req.body.entry[0].changes);
   console.log('**************************');
   let options = {
-    uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
+    uri: `https://graph.facebook.com/v2.8/790534394301792/feed?fields=permalink_url,from,admin_creator&access_token=${process.env.APPID}|${process.env.APPSECRET}`,
     json: true
   };
 
   rp(options)
       .then(function (response) {
-        let mostRecentPostURL = response.data[0].permalink_url;
+        let mostRecentPostURL = response.data
+                                .filter(post => post.from.name === "The Meatball Stoppe")
+                                [0]
+                                .permalink_url;
         firebase.database().ref('mostRecentFBPost').set({
             url: mostRecentPostURL
           });
         res.send(mostRecentPostURL)
+        console.log(response)
       })
       .catch(function (err) {
         res.send(err)

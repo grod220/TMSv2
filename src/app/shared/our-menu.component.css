@@ -1,11 +1,14 @@
 .our-menu-container{padding-bottom: 120px;}
-.our-menu-head{ 
-    text-align: center; 
-    padding-top: 128px;
+.our-menu-head{
+    text-align: center;
     margin-bottom: 25px;
     background: url(assets/images/our_menu.jpg) no-repeat center 0;
-    background-size: auto 400px;
-    height: 400px;
+    background-size: auto 280px;
+    height: 280px;
+}
+.our-menu-head > h1 {
+  padding: 0px;
+  line-height: 280px;
 }
 .our-menu-container .nav-tabs>li{margin-bottom: 0;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
@@ -20,26 +23,33 @@
     margin-top: 2px;
 
 }
-.our-menu-container .nav-tabs>li>a:hover, 
+.our-menu-container .nav-tabs>li>a:hover,
 .our-menu-container .nav-tabs>li.active a:hover,
 .our-menu-container .nav-tabs>li.active a{background: none; border:1px solid transparent; color:#000;}
 @media only screen and (max-width: 992px) {
-   
+
     .our-menu-container .nav-tabs{width: 80%;}
 }
  @media only screen and (max-width: 767px) {
  	.our-menu-container .nav-tabs{width: auto;}
- 	.our-menu-head{ 
-        padding-top: 123px;
-        background-size: auto 300px;
-        height: 300px;
+ 	.our-menu-head{
+        background-size: auto 250px;
+        height: 250px;
     }
+  .our-menu-head > h1 {
+    font-size: 5.5em;
+    padding: 0px;
+    line-height: 250px;
+  }
  }
  @media only screen and (min-width: 1400px) {
  	.our-menu-container .nav-tabs{width: 60%;}
- 	.our-menu-head{ 
-        padding-top: 209px;
-        background-size: auto 562px;
-        height: 562px;
+ 	.our-menu-head{
+        background-size: auto 350px;
+        height: 350px;
     }
- }      
+  .our-menu-head > h1 {
+    padding: 0px;
+    line-height: 350px;
+  }
+ }
