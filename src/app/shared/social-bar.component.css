@@ -13,21 +13,12 @@
     background: #fff;
     padding: 10px;
 }
-.holder-block .content-block{
-    position: absolute;
-    bottom: 0px;
-    width: calc(100% - 50px);
-    background: rgba(255,255,255,0.60);
-    
- }
- .holder-block .content-block p.title{font-size: 20px;padding:20px 10% 0px; margin-bottom:0; }
- .holder-block .content-block p.links{padding:10px; text-align: right;}
- .holder-block .content-block p.links .btn.like{
-    background: #eee url(assets/images/like.png) left -1px;
-    padding-left: 33px;
-    background-size: 35px auto;
-    background-repeat: no-repeat;
- }
+.wrapperDiv{
+  height: 370px;
+  overflow: hidden;
+  position: relative;
+}
+
 @media only screen and (max-width: 992px) {
 
     .holder-block{margin-top: 0;}

@@ -1,0 +1,22 @@
+.content-block{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    background: rgba(255,255,255,0.60);
+    line-height: 28px;
+ }
+ .content-block p.title{
+   font-size: 20px;
+   padding:20px 5% 0px;
+   margin-bottom:0; }
+ .content-block p.links{padding:10px; text-align: right;}
+ .content-block p.links .btn.like{
+    background: #eee url(assets/images/like.png) left -1px;
+    padding-left: 33px;
+    background-size: 35px auto;
+    background-repeat: no-repeat;
+ }
+.fb-photo{
+  width: 100%;
+  /*margin-top: -200px;*/
+}
