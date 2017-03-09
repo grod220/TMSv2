@@ -4,41 +4,41 @@
 .social-block ul li{ float: left; padding-left: 20px;}
 .social-block ul li:first-child{padding-left: 0;}
 .social-block ul{display: inline-block;clear: both; margin:0; padding: 0;}
-.ads-block{    
+.holder-block{
     -webkit-box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
     -moz-box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
     box-shadow: -5px 1px 13px 0px rgba(0,0,0,0.50);
-    
+
     margin-top: -65px;
     background: #fff;
     padding: 10px;
 }
-.ads-block .content-block{
+.holder-block .content-block{
     position: absolute;
     bottom: 0px;
     width: calc(100% - 50px);
     background: rgba(255,255,255,0.60);
     
  }
- .ads-block .content-block p.title{font-size: 20px;padding:20px 10% 0px; margin-bottom:0; }
- .ads-block .content-block p.links{padding:10px; text-align: right;}
- .ads-block .content-block p.links .btn.like{
+ .holder-block .content-block p.title{font-size: 20px;padding:20px 10% 0px; margin-bottom:0; }
+ .holder-block .content-block p.links{padding:10px; text-align: right;}
+ .holder-block .content-block p.links .btn.like{
     background: #eee url(assets/images/like.png) left -1px;
     padding-left: 33px;
     background-size: 35px auto;
     background-repeat: no-repeat;
  }
 @media only screen and (max-width: 992px) {
-   
-    .ads-block{margin-top: 0;}
+
+    .holder-block{margin-top: 0;}
 }
 @media only screen and (max-width: 852px) {
- 
+
     .social-block h4{font-size: 36px;}
 }
 @media only screen and (max-width: 767px) {
     .social-block h4{font-size: 30px;}
-}   
+}
 @media only screen and (min-width: 1400px) {
     .social-block h4 {
         font-size: 55px;

@@ -4,8 +4,7 @@ import { WindowRef } from './windowRef';
 
 @Component({
   selector: 'app-fb-widget',
-  templateUrl: './fb-widget.component.html',
-  styleUrls: ['./fb-widget.component.css']
+  templateUrl: './fb-widget.component.html'
 })
 export class FbWidgetComponent implements OnInit {
   FBLink:string;
