@@ -1,7 +1,13 @@
-<div
+<!-- <div
   class="fb-post"
   [attr.data-href]="FBLink"
   data-width="500"
-  data-show-text="false"></div>
+  data-show-text="false"></div> -->
 
 <!-- <h3>{{ FBLink }}</h3> -->
+
+<img [src]="fbImageURL" class="fb-photo"/>
+<div class="content-block">
+    <p class="title">{{ fbMessage }}</p>
+    <p class="links"><a href="#" class="btn like"> Like</a> <a href="#"><img src="assets/images/social-facebook-square2.png"/></a></p>
+</div>
