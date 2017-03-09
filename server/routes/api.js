@@ -47,7 +47,7 @@ router.post('/webhook', (req, res) => {
         firebase.database().ref('mostRecentFBPost').set({
             imageURL: postInfo.full_picture,
             url: postInfo.permalink_url,
-            message: postInfo.message
+            message: postInfo.message.slice(0,115)
           });
         res.send(postInfo)
         console.log(response)
