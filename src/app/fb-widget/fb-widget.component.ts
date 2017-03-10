@@ -18,7 +18,8 @@ export class FbWidgetComponent implements OnInit {
     this.item = af.database.object('/mostRecentFBPost', { preserveSnapshot: true });
     this.item.subscribe(snapshot => {
       this.fbURL = snapshot.val().url;
-      this.fbImageURL = snapshot.val().imageURL;
+      // FIX SIZING LATER
+      // this.fbImageURL = snapshot.val().imageURL;
       this.fbMessage = snapshot.val().message;
       setTimeout(function(){
         WindowRef.get().FB.XFBML.parse()
