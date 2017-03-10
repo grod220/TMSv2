@@ -17,7 +17,16 @@ header{padding-top:  45px;}
     font-size: 18px;
     line-height: 22px;
 }
-.head-block-shad .first{text-align: right;}
+.head-block-shad .first{
+  text-align: right;
+}
+
+.head-block-shad .first > a {
+  color: white;
+}
+.head-block-shad .first > a:hover {
+  color: #dbdbdb;
+}
 .head-block-shad .last{text-align: left;}
 .navbar-toggle .icon-bar {
     display: block;
