@@ -23,7 +23,7 @@
  .ads-block .content-block p.title{font-size: 20px;padding:20px 10% 0px; margin-bottom:0; }
  .ads-block .content-block p.links{padding:10px; text-align: right;}
  .ads-block .content-block p.links .btn.like{
-    background: #eee url(assets/images/like.png) left -1px;
+    background: #eee url(../../assets/images/like.png) left -1px;
     padding-left: 33px;
     background-size: 35px auto;
     background-repeat: no-repeat;
