@@ -1,10 +1,10 @@
-import { TMSv2Page } from './app.po';
+import { TMSv2.1Page } from './app.po';
 
-describe('tmsv2 App', function() {
-  let page: TMSv2Page;
+describe('tmsv2.1 App', () => {
+  let page: TMSv2.1Page;
 
   beforeEach(() => {
-    page = new TMSv2Page();
+    page = new TMSv2.1Page();
   });
 
   it('should display message saying app works', () => {
