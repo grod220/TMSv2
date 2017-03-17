@@ -11,7 +11,7 @@
    margin-bottom:0; }
  .content-block p.links{padding:10px; text-align: right;}
  .content-block p.links .btn.like{
-    background: #eee url(assets/images/like.png) left -1px;
+    background: #eee url(../../assets/images/like.png) left -1px;
     padding-left: 33px;
     background-size: 35px auto;
     background-repeat: no-repeat;

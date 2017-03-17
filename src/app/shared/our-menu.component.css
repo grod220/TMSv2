@@ -2,7 +2,7 @@
 .our-menu-head{
     text-align: center;
     margin-bottom: 25px;
-    background: url(assets/images/our_menu.jpg) no-repeat center 0;
+    background: url(../../assets/images/our_menu.jpg) no-repeat center 0;
     background-size: auto 280px;
     height: 280px;
 }
