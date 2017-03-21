@@ -13,7 +13,7 @@
 .our-menu-container .nav-tabs>li{margin-bottom: 0;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
 .our-menu-container .nav-tabs>li>a{color:#bbb;}
-.our-menu-container .nav-tabs{    width: 50%;    margin: 0 auto 50px;}
+.our-menu-container .nav-tabs{    /*width: 50%;  */  margin: 0 auto 50px;}
 .our-menu-container p{color: #999;}
 .our-menu-container p.heading{ text-transform: uppercase; color: #000; font-weight: bold;}
 .our-menu-container .tab-content .tab-pane .col-xs-12{ padding-bottom: 20px;}
@@ -28,7 +28,7 @@
 .our-menu-container .nav-tabs>li.active a{background: none; border:1px solid transparent; color:#000;}
 @media only screen and (max-width: 992px) {
 
-    .our-menu-container .nav-tabs{width: 80%;}
+    .our-menu-container .nav-tabs{/*width: 80%;*/}
 }
  @media only screen and (max-width: 767px) {
  	.our-menu-container .nav-tabs{width: auto;}
@@ -43,7 +43,7 @@
   }
  }
  @media only screen and (min-width: 1400px) {
- 	.our-menu-container .nav-tabs{width: 60%;}
+ 	.our-menu-container .nav-tabs{/*width: 60%;*/}
  	.our-menu-head{
         background-size: auto 350px;
         height: 350px;
