@@ -10,7 +10,7 @@
   padding: 0px;
   line-height: 280px;
 }
-.our-menu-container .nav-tabs>li{margin-bottom: 0;}
+.our-menu-container .nav-tabs>li{margin-bottom: 2px;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
 .our-menu-container .nav-tabs>li>a{color:#bbb;}
 .our-menu-container .nav-tabs{    /*width: 50%;  */  margin: 0 auto 50px;}
