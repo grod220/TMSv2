@@ -264,7 +264,7 @@ export class MapComponent implements OnInit {
 				if (status === google.maps.DirectionsStatus.OK) {
 					directionsDisplay.setDirections(response);
 				} else {
-					window.alert('Directions request failed due to ' + status);
+					//put here error handler logic
 				}
 			});
 		};
@@ -278,7 +278,7 @@ export class MapComponent implements OnInit {
 					};
 					buildDirection(pos, { lat: 28.5394327, lng: -81.2868005 });
 				}, function () {
-					alert("Your browser does not support geolocation!");
+					//put here error handler logic
 				});
 			}
 		}
