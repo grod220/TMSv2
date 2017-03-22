@@ -14,11 +14,16 @@ export class MapComponent implements OnInit {
 	}
 
 	initMap() {
+		//Google map directions 
+		var directionsDisplay = new google.maps.DirectionsRenderer;
+
+		//Create map object
 		var map = new google.maps.Map(document.getElementById('map'), {
 			zoom: 16,
 			center: { lat: 28.5394327, lng: -81.2868005 },
-			scrollwheel:  false
+			scrollwheel: false
 		});
+		directionsDisplay.setMap(map);
 		var styles = [
 			{
 				"elementType": "geometry",
@@ -230,15 +235,54 @@ export class MapComponent implements OnInit {
 				]
 			}
 		]
-
+		//Set styles for map
 		map.setOptions({ styles: styles });
+		directionsDisplay.setOptions( { suppressMarkers: true } )
 
+		//Place Marker on the map
 		var image = 'assets/images/point.png';
-		var beachMarker = new google.maps.Marker({
+		var meatBallMarker = new google.maps.Marker({
 			position: { lat: 28.5394327, lng: -81.2868005 },
 			map: map,
-			icon: image
+			icon: image,
+			title: "7325 Lake Underhill Rd, Orlando, FL 32822, USA"
 		});
+
+		//Add eventListener for marker click 
+		meatBallMarker.addListener('click', function () {
+			 tryGeolocation();
+		});
+
+		function buildDirection(curentPos, target) {
+			var directionsService = new google.maps.DirectionsService;
+
+			directionsService.route({
+				origin: curentPos,
+				destination: target,
+				travelMode: google.maps.TravelMode.DRIVING
+			}, function (response, status) {
+				if (status === google.maps.DirectionsStatus.OK) {
+					directionsDisplay.setDirections(response);
+				} else {
+					window.alert('Directions request failed due to ' + status);
+				}
+			});
+		};
+
+		function tryGeolocation() {
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(function (position) {
+					var pos = {
+						lat: position.coords.latitude,
+						lng: position.coords.longitude
+					};
+					buildDirection(pos, { lat: 28.5394327, lng: -81.2868005 });
+				}, function () {
+					alert("Your browser does not support geolocation!");
+				});
+			}
+		}
 	}
+
 
 }
