@@ -10,11 +10,11 @@
   padding: 0px;
   line-height: 280px;
 }
-.our-menu-container .nav-tabs>li{margin-bottom: 2px;}
+.our-menu-container .nav-tabs>li{margin-bottom: 2px;    font-family: "Raleway",sans-serif;}
 .our-menu-container .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li.a:hover{background: #fff; border: none;}
 .our-menu-container .nav-tabs>li>a{color:#bbb;}
 .our-menu-container .nav-tabs{    /*width: 50%;  */  margin: 0 auto 50px;}
-.our-menu-container p{color: #999;}
+.our-menu-container p{color: #999;    font-family: "Raleway",sans-serif;}
 .our-menu-container p.heading{ text-transform: uppercase; color: #000; font-weight: bold;}
 .our-menu-container .tab-content .tab-pane .col-xs-12{ padding-bottom: 20px;}
 .our-menu-container .nav-tabs>li.active {
