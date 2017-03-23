@@ -33,22 +33,76 @@ header{padding-top:  45px;}
     width: 45px;
     height: 6px;
     border-radius: 1px;
+    background-color: #fff;
 }
-.navbar-toggle{border:none;margin-top: 50px;background-color: #eee;   margin-right: 25px;}
+.navbar-toggle{
+    border:none;
+    margin-top: 50px;
+    margin-right: 25px;
+    position: absolute;
+}
+.navbar-toggle:hover, .navbar-toggle:focus{
+    background-color: transparent;
+}
 
 @media only screen and (max-width: 992px) {
     .logo{    margin-top: -10px;}
 }
 
 @media only screen and (max-width: 767px) {
+    html { position: relative; }
 	.head-block-shad .col-xs-12:first-child{padding-bottom: 5px;}
     .head-block-shad .col-xs-12{text-align: center;}
     header{padding-top: 0;}
-    .navbar-default .navbar-collapse{background: #2D2D2D;}
-    .navbar-default .navbar-collapse  .navbar-nav>li>a{color: #fff;}
+    .navbar-default{background-color: #711518; position: static;}
+    .navbar-default .navbar-collapse{
+        padding-top: 25px !important;
+        position: fixed;
+        background: url(../../assets/images/mobile_menu.jpg) center top;
+        background-size: cover;
+        top: 0;
+        bottom: 0;
+        border: none;
+        z-index: 1000;
+        height: 100% !important;
+        overflow: hidden;
+        padding: 0;
+        width: 0;
+        text-transform: uppercase;
+        text-align: right;
+        box-shadow: inset -14px 0px 63px -7px rgba(0,0,0,1);
+    }
+    .navbar-toggle {
+        margin-top: 30px;
+    }
+    .navbar-default .navbar-collapse ul {
+        width: 247px;
+        padding-right: 14px;
+    }
+    .navbar-default .icon-bar {
+        margin-bottom: 6px;
+        width: 40px;
+    }
+    .slideUp{
+        animation: slideUp 0.3s ease;
+        animation-fill-mode: forwards; 
+    }
+    .slideShow {
+        animation: slide 0.3s ease;
+        animation-fill-mode: forwards;
+    }
+    .navbar-default .navbar-collapse  .navbar-nav>li>a{color: #fff; font-size: 30px; line-height: 41px;}
     .navbar-default .navbar-collapse .col-xs-12{padding-bottom: 0;}
     .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
     .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
     .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
     .small-logo-container{width: 100px;  margin: 0 auto 15px;}
+}
+@keyframes slide {
+    0%{width: 0;}
+    100% {width: 247px;}
+}
+@keyframes slideUp {
+    0%{width: 247px;}
+    100% {width: 0px;}
 }
