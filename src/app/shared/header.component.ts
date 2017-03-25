@@ -15,7 +15,7 @@ export class HeaderComponent implements OnInit {
 		
 		this.toggleClickHandler();
 		this.appendAdditionalHTML();
-		
+			
 		$(".menu-close").click(this.triggerMenuClick);
 		$(".navbar-collapse li a").click(this.triggerMenuClick);
 		
@@ -45,6 +45,10 @@ export class HeaderComponent implements OnInit {
 	}
 
 	private triggerMenuClick(){
-		$(".navbar-toggle").trigger("click");
+		var screenWidth = window.innerWidth;
+		if(screenWidth <= 767) {
+			$(".navbar-toggle").trigger("click");
+		}
+		
 	}
 }
