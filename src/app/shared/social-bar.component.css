@@ -18,6 +18,10 @@
   overflow: hidden;
   position: relative;
 }
+.hours {
+  color: #902e2d;
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 992px) {
 
