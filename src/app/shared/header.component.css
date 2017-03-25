@@ -96,13 +96,7 @@ header{padding-top:  45px;}
     .navbar-default .navbar-collapse .col-xs-12 .navbar-nav{float: none!important;}
     .navbar-default .navbar-collapse .col-xs-12.first .navbar-nav{margin-bottom: 0;}
     .navbar-default .navbar-collapse .col-xs-12.last .navbar-nav{margin-top: 0;}
-    .small-logo-container{text-align: center;  margin: 0 auto 15px;}
-}
-
-@media only screen and (max-width: 400px) {
-    .small-logo-container {
-        padding-left: 40px;
-    }
+    .small-logo-container{text-align: center;  margin: 9px auto;}
 }
 
 @keyframes slide {
