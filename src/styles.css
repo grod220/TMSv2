@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+@media only screen and (max-width: 767px) { 
+    .navbar-collapse .menu-close {
+        position: absolute;
+        right: 7px;
+        top: 8px;
+        cursor: pointer;
+        color: white;
+        font-size: 20px;
+        display: block !important;
+        font-family: sans-serif;
+    }
+    .navbar-collapse .menu-address {
+        display: block !important;
+        color: #FFF;
+        text-transform: none;
+        padding: 30px;
+        padding-top: 12px;
+        width: 247px;
+    }
+}
+.navbar-collapse .menu-close, .navbar-collapse .menu-address {
+    display: none;
+}
