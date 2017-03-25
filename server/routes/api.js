@@ -44,10 +44,17 @@ router.post('/webhook', (req, res) => {
                                .filter(post => {
                                   return post.from.name === "The Meatball Stoppe" && post.full_picture;})
                                [0];
+
+        if (postInfo.message) {
+         postInfo.message = postInfo.message.slice(0,115) + '...';
+        } else {
+         postInfo.message = '';
+        }
+
         firebase.database().ref('mostRecentFBPost').set({
             imageURL: postInfo.full_picture,
             url: postInfo.permalink_url,
-            message: postInfo.message.slice(0,115) + '...'
+            message: postInfo.message
           });
         res.send(postInfo)
         console.log(response)
@@ -72,6 +79,12 @@ router.get('/test', (req, res) => {
                                .filter(post => {
                                   return post.from.name === "The Meatball Stoppe" && post.full_picture;})
                                [0];
+
+        if (postInfo.message) {
+          postInfo.message = postInfo.message.slice(0,115) + '...';
+        } else {
+          postInfo.message = '';
+        }
         firebase.database().ref('mostRecentFBPost').set({
             imageURL: postInfo.full_picture,
             url: postInfo.permalink_url,
