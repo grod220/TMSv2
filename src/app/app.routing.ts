@@ -3,14 +3,10 @@ import { Routes,
          RouterModule }             from '@angular/router';
 
 //Layouts
-import { MainComponent }      from './layouts/main.component';
+import { MainComponent } from './layouts/main.component';
+import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
 
 export const routes: Routes = [
-    {
-        path: '',
-        redirectTo: '/',
-        pathMatch: 'full',
-    },
     {
         path: '',
         component: MainComponent,
@@ -24,7 +20,10 @@ export const routes: Routes = [
             }
         ]
     },
-
+    {
+        path: "**",
+        component: PageNotFoundComponent
+    }
 
 ];
 
