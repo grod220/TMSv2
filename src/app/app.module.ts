@@ -33,6 +33,7 @@ import { TestimonialComponent } from './shared/testimonials.component';
 import { MapComponent } from './shared/map.component';
 import { OurPassionComponent } from './shared/our-passion.component';
 import { FooterComponent } from './shared/footer.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -48,6 +49,7 @@ import { FooterComponent } from './shared/footer.component';
     MapComponent,
     OurPassionComponent,
     FooterComponent,
+    PageNotFoundComponent,
   ],
   imports: [
     BrowserModule,
