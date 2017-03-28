@@ -20,9 +20,10 @@ export class FbWidgetComponent implements OnInit {
       this.fbURL = snapshot.val().url;
       this.fbImageURL = snapshot.val().imageURL;
       this.fbMessage = snapshot.val().message;
-      this.showAnimation = false;
+      let self = this;
       setTimeout(function(){
-        WindowRef.get().FB.XFBML.parse()
+        WindowRef.get().FB.XFBML.parse();
+        self.showAnimation = false;
       }, 0)
     });
   }
