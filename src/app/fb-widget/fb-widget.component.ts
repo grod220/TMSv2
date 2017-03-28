@@ -9,9 +9,9 @@ import { WindowRef } from './windowRef';
 })
 export class FbWidgetComponent implements OnInit {
   fbURL:string;
-  fbImageURL:string = "https://scontent.xx.fbcdn.net/v/t1.0-9/17103339_1354465297908696_2042452126678539110_n.jpg?oh=a532c9c4996eef69e471170a7e13424c&oe=5964BDEA";
+  fbImageURL:string ;
   fbMessage:string;
-
+  showAnimation: boolean = true;
   item: FirebaseObjectObservable<any>;
 
   constructor(af: AngularFire) {
@@ -20,6 +20,7 @@ export class FbWidgetComponent implements OnInit {
       this.fbURL = snapshot.val().url;
       this.fbImageURL = snapshot.val().imageURL;
       this.fbMessage = snapshot.val().message;
+      this.showAnimation = false;
       setTimeout(function(){
         WindowRef.get().FB.XFBML.parse()
       }, 0)
