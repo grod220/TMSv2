@@ -4,7 +4,9 @@ import { Routes,
 
 //Layouts
 import { MainComponent } from './layouts/main.component';
+
 import { PageNotFoundComponent } from "./page-not-found/page-not-found.component";
+import { HomeComponent } from "./home/home.component";
 
 export const routes: Routes = [
     {
@@ -16,7 +18,7 @@ export const routes: Routes = [
         children: [
             {
                 path: '',
-                loadChildren: 'app/home/home.module#HomeModule'
+                component: HomeComponent
             }
         ]
     },
