@@ -7,6 +7,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
 import { HomeComponent } from "./home/home.component";
+import { MenuComponent } from './menu/menu.component';
 
 import { AngularFireModule } from 'angularfire2';
 
@@ -51,7 +52,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     OurPassionComponent,
     FooterComponent,
     PageNotFoundComponent,
-    HomeComponent
+    HomeComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
