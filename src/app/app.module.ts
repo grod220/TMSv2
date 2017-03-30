@@ -36,6 +36,7 @@ import { MapComponent } from './shared/map.component';
 import { OurPassionComponent } from './shared/our-passion.component';
 import { FooterComponent } from './shared/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeroSubPageComponent } from './shared/hero-sub-page.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     FooterComponent,
     PageNotFoundComponent,
     HomeComponent,
-    MenuComponent
+    MenuComponent,
+    HeroSubPageComponent
   ],
   imports: [
     BrowserModule,
