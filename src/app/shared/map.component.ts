@@ -10,7 +10,22 @@ declare var google;
 export class MapComponent implements OnInit {
 
 	ngOnInit(): void {
-		this.initMap();
+		try {
+			this.initMap();
+		} catch (err){
+			this.onMapLoaded().then(() => {
+				this.initMap();
+			});
+		}
+	}
+
+	onMapLoaded(): Promise<string> {
+		return new Promise((resolve) => {
+			window['initMap'] = () => {
+				resolve("done");
+			}
+
+		})
 	}
 
 	initMap() {
@@ -237,7 +252,7 @@ export class MapComponent implements OnInit {
 		]
 		//Set styles for map
 		map.setOptions({ styles: styles });
-		directionsDisplay.setOptions( { suppressMarkers: true } )
+		directionsDisplay.setOptions({ suppressMarkers: true })
 
 		//Place Marker on the map
 		var image = 'assets/images/point.png';
@@ -250,7 +265,7 @@ export class MapComponent implements OnInit {
 
 		//Add eventListener for marker click 
 		meatBallMarker.addListener('click', function () {
-			 tryGeolocation();
+			tryGeolocation();
 		});
 
 		function buildDirection(curentPos, target) {

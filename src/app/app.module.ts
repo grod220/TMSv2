@@ -6,6 +6,8 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { FbWidgetComponent } from './fb-widget/fb-widget.component';
+import { HomeComponent } from "./home/home.component";
+import { MenuComponent } from './menu/menu.component';
 
 import { AngularFireModule } from 'angularfire2';
 
@@ -34,6 +36,7 @@ import { MapComponent } from './shared/map.component';
 import { OurPassionComponent } from './shared/our-passion.component';
 import { FooterComponent } from './shared/footer.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HeroSubPageComponent } from './shared/hero-sub-page.component';
 
 @NgModule({
   declarations: [
@@ -50,6 +53,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     OurPassionComponent,
     FooterComponent,
     PageNotFoundComponent,
+    HomeComponent,
+    MenuComponent,
+    HeroSubPageComponent
   ],
   imports: [
     BrowserModule,

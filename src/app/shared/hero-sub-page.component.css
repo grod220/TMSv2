@@ -1,0 +1,5 @@
+.hero-sub-page-container {
+    background: url(../../assets/images/hero.jpg) no-repeat center 0;
+    background-size: cover;
+    height: 280px;
+}
