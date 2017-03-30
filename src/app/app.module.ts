@@ -39,6 +39,7 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
 import { HeroSubPageComponent } from './shared/hero-sub-page.component';
 import { CateringComponent } from './catering/catering.component';
 import { AboutUsComponent } from './about-us/about-us.component';
+import { MediaComponent } from './media/media.component';
 
 @NgModule({
   declarations: [
@@ -59,7 +60,8 @@ import { AboutUsComponent } from './about-us/about-us.component';
     MenuComponent,
     HeroSubPageComponent,
     CateringComponent,
-    AboutUsComponent
+    AboutUsComponent,
+    MediaComponent
   ],
   imports: [
     BrowserModule,
