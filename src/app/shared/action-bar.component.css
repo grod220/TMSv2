@@ -9,6 +9,18 @@
     text-transform: capitalize;
 
  }
+ .action-bar-container {
+    position: relative;
+    min-height: 70px;
+}
+ .sub-page-title {
+    position: absolute;
+    text-align: center;
+    right: 0;
+    left: 0;
+    bottom: 17px;
+    font-size: 84px;
+ }
  .action-bar-container .container{padding-top: 20px; padding-bottom: 20px;}
 
  @media only screen and (max-width: 767px) {
