@@ -41,6 +41,7 @@ import { CateringComponent } from './catering/catering.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MediaComponent } from './media/media.component';
 import { DeliveryOrderComponent } from './delivery-order/delivery-order.component';
+import { SubPageContainerComponent } from './shared/sub-page-container.component';
 
 @NgModule({
   declarations: [
@@ -63,7 +64,8 @@ import { DeliveryOrderComponent } from './delivery-order/delivery-order.componen
     CateringComponent,
     AboutUsComponent,
     MediaComponent,
-    DeliveryOrderComponent
+    DeliveryOrderComponent,
+    SubPageContainerComponent
   ],
   imports: [
     BrowserModule,
