@@ -40,6 +40,7 @@ import { HeroSubPageComponent } from './shared/hero-sub-page.component';
 import { CateringComponent } from './catering/catering.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { MediaComponent } from './media/media.component';
+import { DeliveryOrderComponent } from './delivery-order/delivery-order.component';
 
 @NgModule({
   declarations: [
@@ -61,7 +62,8 @@ import { MediaComponent } from './media/media.component';
     HeroSubPageComponent,
     CateringComponent,
     AboutUsComponent,
-    MediaComponent
+    MediaComponent,
+    DeliveryOrderComponent
   ],
   imports: [
     BrowserModule,

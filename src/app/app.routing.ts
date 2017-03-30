@@ -13,6 +13,7 @@ import { MenuComponent } from "./menu/menu.component";
 import { CateringComponent } from "./catering/catering.component";
 import { AboutUsComponent } from "./about-us/about-us.component";
 import { MediaComponent } from "./media/media.component";
+import { DeliveryOrderComponent } from "./delivery-order/delivery-order.component";
 
 export const routes: Routes = [
     {
@@ -41,6 +42,10 @@ export const routes: Routes = [
             {
                 path: "media",
                 component: MediaComponent
+            },
+            {
+                path: "delivery",
+                component: DeliveryOrderComponent
             }
         ]
     },
