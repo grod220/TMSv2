@@ -10,9 +10,13 @@ declare var google;
 export class MapComponent implements OnInit {
 
 	ngOnInit(): void {
-		this.onMapLoaded().then(()=>{
+		try {
 			this.initMap();
-		});
+		} catch (err){
+			this.onMapLoaded().then(() => {
+				this.initMap();
+			});
+		}
 	}
 
 	onMapLoaded(): Promise<string> {
