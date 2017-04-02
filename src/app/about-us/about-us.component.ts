@@ -9,6 +9,8 @@ export class AboutUsComponent implements OnInit {
 
   constructor() { }
 
+  headlineImage: string = '/assets/images/aboutushero.jpg';
+
   ngOnInit() {
   }
 

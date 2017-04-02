@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'hero-sub-page',
@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class HeroSubPageComponent implements OnInit {
 
   constructor() { }
+
+  @Input() subPageImage: string;
 
   ngOnInit() {
   }
