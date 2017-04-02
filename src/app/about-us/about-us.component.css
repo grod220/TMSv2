@@ -1,0 +1,45 @@
+.about-us-description {
+    padding: 45px 0 110px 0;
+}
+.about-us-description p{
+    font-size: 28px;
+    text-align: center;
+}
+
+.description-item  {
+    text-align: center;
+    margin-top: 35px;
+}
+.description-item-background {
+    background-color: #902e2d;
+    min-height: 120px;
+    padding: 8px 15px;
+    margin-top: -2px;
+}
+
+h5{ 
+    margin: 0;
+    font-size: 43px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.about-us-description .description{
+    text-align: left;
+    line-height: 30px;
+    margin-top: 40px;
+}
+.about-us-description .description a {
+    color: #333;
+    text-decoration: underline;
+}
+
+.location-image {
+    height: 430px;
+    background-size: cover;
+    background-position: center;
+    margin-left: -30px;
+}
+.location-image.left {
+    background-image: url('/assets/images/left.jpg');
+}
