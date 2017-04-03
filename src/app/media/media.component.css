@@ -1,0 +1,98 @@
+.media-description {
+    min-height: 850px;
+}
+
+p {
+    font-size: 30px;
+    margin-top: 40px;
+    line-height: 1.3;
+}
+
+figure img {
+    width: 330px;
+    margin-top: 50px;
+    text-align: center
+}
+
+.wesh {
+    width: 220px!important;
+    height: 110px;
+    margin-left: 20%;
+}
+
+span {
+    font-size: 26px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+span a {
+    text-transform: uppercase;
+    color: #902e2d;
+    text-decoration: underline;
+}
+
+p a {
+    color: #902e2d;
+}
+
+.video-about {
+    min-height: 250px;
+    margin-top: 50px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.bg-wrapper {
+    background-color: #902e2d;
+    min-height: 250px;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-size: 58px;
+    line-height: 1.3;
+    margin-top: 44px;
+}
+
+.for-video {
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    left: 28px;
+    top: -60px;
+    background-color: black;
+}
+
+.video-about-continue {
+    height: 250px;
+    position: relative;
+}
+
+.bg-wrapper-continue {
+    background-color: #c57c35;
+    min-height: 250px;
+}
+
+.for-video-continue {
+    width: 600px;
+    height: 280px;
+    position: absolute;
+    right: -28px;
+    top: 40px;
+    background-color: black;
+}
+
+.in-youtube {
+    min-height: 300px;
+}
+
+.in-youtube p {
+    padding-top: 150px;
+    font-size: 34px;
+}
+
+.in-youtube a {
+     color: #902e2d;
+     font-weight: 600;
+}
