@@ -1,6 +1,12 @@
 .our-passion-container{ background: #902E2D;}
 .our-passion-content{padding: 50px 5% 40px 5%;}
 .our-passion-content p{color:#fff;}
+.bg-image {
+    min-height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 @media only screen and (max-width: 1140px) {
     .our-passion-content{padding: 5px 5%;}
 }
