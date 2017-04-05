@@ -101,3 +101,52 @@ section.founders {
 .text-left {
     text-align: left;
 }
+
+@media only screen and (max-width: 768px) { 
+    .description-item {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    h5 {
+        font-size: 35px;
+        line-height: 37px;
+    }
+    .about-us-description .description {
+        margin-top: 17px;
+        text-align: justify;
+    }
+    .location-image.left, .location-image.right{
+        margin: 0px;
+        height: 200px;
+    }
+    .background-wrapper {
+        overflow: hidden;
+        margin-top: -416px;
+        padding-top: 430px;
+    }
+    section.new p {
+        font-weight: 400; 
+        line-height: 27px;
+        padding: 10px 0;
+    }
+    section.founders {
+        padding: 30px 0;
+    }
+    .quotation {
+        font-size: 22px;
+    }
+    .chef-photo {
+        margin: 25px 0 30px;
+        height: 220px;
+    }
+    .about-chef {
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 501px) {
+    h5{ 
+        font-size: 38px;
+        line-height: 48px;  
+    }
+}
