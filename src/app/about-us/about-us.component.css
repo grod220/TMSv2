@@ -1,10 +1,10 @@
 p{
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 22px;
+    line-height: 24px;
 }
 
 .about-us-description {
-    padding: 45px 0 110px 0;
+    padding: 45px 0;
 }
 .about-us-description p{
     text-align: center;
@@ -55,7 +55,7 @@ h5{
 .background-wrapper {
     background: #902e2d;
     margin: -250px -50px 0px;
-    min-height: 480px;
+    min-height: 432px;
     padding: 280px 50px 0;
 }
 
@@ -88,6 +88,7 @@ section.founders {
     font-style: italic;
     color: #902e2d;
     text-align: center;
+    font-size: 26px;
 }
 .chef-photo {
     background: url('/assets/images/momjeff.jpg') center center no-repeat;
@@ -95,10 +96,6 @@ section.founders {
     height: 500px;
     margin: 50px 15px 40px;
 }
-.about-chef {
-    font-size: 23px;
-}
-
 
 /*helpers*/
 .text-left {
