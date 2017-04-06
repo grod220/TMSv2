@@ -6,6 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./delivery-order.component.css']
 })
 export class DeliveryOrderComponent implements OnInit {
+  headlineImage: string = '/assets/images/deliveryhero.jpg';
 
   constructor() { }
 
