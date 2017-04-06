@@ -9,6 +9,8 @@ export class MediaComponent implements OnInit {
 
   constructor() { }
 
+  headlineImage: string = "assets/images/mediahero.jpg"
+
   ngOnInit() {
   }
 
