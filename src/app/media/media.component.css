@@ -11,9 +11,8 @@ figure {
 }
 
 figure img {
-    width: 100%;
+    width: 99%;
     margin-top: 50px;
-    max-height: 88px;
 }
 
 span.description {
@@ -22,6 +21,8 @@ span.description {
     display: inline-block;
     font-style: italic;
     line-height: 26px;
+    color: #989898;
+    text-align: justify;
 }
 
 span.description a {
@@ -32,6 +33,7 @@ span.description a {
 .archive {
     margin-top: 55px;
     font-style: italic;
+    text-align: right;
 }
 .archive:after {
     content: " \2192";
@@ -89,9 +91,55 @@ h1 {
 .in-youtube p {
     padding-top: 150px;
     font-size: 34px;
+    text-align: center;
 }
 
 .in-youtube a {
      color: #902e2d;
      font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+    figure img {
+        max-width: 80%;
+        margin-top: 30px;
+    }
+    p {
+        font-size: 20px;
+    }
+    
+    .archive {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .video-about {
+        height: auto;
+        margin: 0;
+    }
+    .video-container {
+        width: auto; 
+        height: auto; 
+        position: static; 
+    }
+    h1 {
+        margin: 0;
+        font-size: 38px;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .bg-wrapper {
+        padding: 15px 0;
+    }
+    .in-youtube {
+        min-height: 50px !important;
+        padding-top: 20px;
+    }
+    .in-youtube p {
+        padding: 0;
+        font-size: 18px;
+        text-align: center;
+    }
 }
