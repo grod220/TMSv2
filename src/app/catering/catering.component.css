@@ -3,6 +3,10 @@ p {
     font-size: 22px;
 }
 
+.catering-description {
+    margin-bottom: 15px;
+}
+
 .catering-description p {
     line-height: 34px;
     margin-top: 40px;
@@ -47,7 +51,7 @@ p {
 
 .corporate-options li {
     list-style-type: disc;
-    margin-top: 40px;
+    margin-top: 28px;
 }
 
 .corporate-options li p {
