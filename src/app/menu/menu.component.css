@@ -1,0 +1,111 @@
+
+p {
+    font-size: 22px;
+}
+.menu-description {
+    margin-bottom: 15px;
+}
+
+.menu-description p {
+    line-height: 34px;
+    margin-top: 40px;
+}
+
+.menu-description p span {
+    color: #c14e4d;
+    font-style: italic;
+}
+
+.menu-description p a {
+    color: #c14e4d;
+    text-decoration: underline;
+}
+
+.menu-section {
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+.menu-section h4{
+    color: #902e2d;
+    font-size: 50px;
+}
+
+.menu-section .menu-list {
+    padding: 40px 0;
+    position: relative;
+    z-index: 100;
+    color: #fff;
+}
+
+.menu-list-background {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: -10000px;
+    background-color: #902e2d;
+    z-index: -1;
+}
+
+figure {
+    margin-top: 50px;
+    text-align: center;
+}
+
+figure:first-child {
+    margin-top: 62px;
+}
+
+figure img{
+    max-width: 300px;
+    height: auto;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 400px) {
+    .menu-list li {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) { 
+    p {
+        text-align: justify;
+    }
+    .menu-section {
+        margin-bottom: 30px;
+    }
+    .menu-section h4 {
+        font-size: 33px;
+        text-align: center;
+    }
+    .menu-description {
+        margin-bottom: 0;
+    }
+    .menu-list li {
+        text-align: center;
+    }
+    .menu-list-background {
+        left: 0;
+    }
+    .menu-section .menu-list {
+        padding: 20px;
+    }
+    figure img {
+        max-width: 100%;
+    }
+    figure {
+        margin-top: 30px;
+    }
+    .menu {
+        padding-bottom: 30px;
+    }
+}
+
