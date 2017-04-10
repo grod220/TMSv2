@@ -1,0 +1,144 @@
+.delivery-order {
+    padding-top: 40px;
+}
+
+.about {
+    font-size: 30px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+.delivery-order span {
+    color: #902e2d;
+}
+
+.italic {
+    font-style: italic;
+    color: #c1c1c1;
+}
+
+.italic span {
+    text-decoration: underline;
+    color: #c1c1c1!important;
+}
+
+.bg {
+    background-image: url(/assets/images/telephoneBG.png);
+    height: 430px;
+    width: 610px;
+    background-size: cover;
+    background-position: center;
+}
+
+.options {
+    padding-top: 20px;
+}
+
+.btn-meatball {
+    font-size: 18px;
+    outline: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-underline:after {
+    content: '';
+    display: block;
+    height: 1px;
+    width: 209px;
+    background: #a3a3a3;
+    margin-left: 26px;
+    margin-top: 40px;
+} 
+
+.button-uber {
+    padding-top: 60px;
+}
+
+.button-uber img {
+    width: 52%;
+}
+
+.button-uber a {
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.bite-button {
+    text-align: center;
+    margin-right: 90px;
+    margin-top: 20px;
+}
+
+.bite-button img {
+    height: 110px;
+    padding-bottom: 30px;
+}
+
+.amazon-button {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.amazon-button img {
+    height: 55px;
+    width: 280px;
+}
+
+.amazon-button a {
+    margin-top: 30px;
+    margin-left: 56px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .bg {
+        display: none;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    .about {
+        font-size: 20px;
+        text-align: center;
+        line-height: 22px;
+    }
+
+    .button-uber {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .bite-button {
+        text-align: center;
+        margin: 0;
+        padding: 20px 0 0 0;
+    }
+
+    .button-uber a{
+        margin: 20px 0 0 0;
+    }
+
+    .amazon-button {
+        text-align: center;
+        margin: 0;
+        padding: 20px 0 50px 0;
+        margin: 30px 0 0 0;
+    }
+
+    .amazon-button a {
+        margin-left: 0;
+    }
+
+    .button-underline:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 100%;
+        background: #a3a3a3;
+        margin-left: 0;
+    }
+}
