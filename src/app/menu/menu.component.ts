@@ -9,6 +9,8 @@ export class MenuComponent implements OnInit {
 
   constructor() { }
 
+  headlineImage: string = "assets/images/menuhero.jpg"
+
   ngOnInit() {
   }
 

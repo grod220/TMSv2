@@ -1,5 +1,144 @@
-<hero-sub-page></hero-sub-page>
+<hero-sub-page [subPageImage]="headlineImage">></hero-sub-page>
 <action-bar-block [isHomePage] = "false" [heading]="'Our delicious menu'"></action-bar-block>
-<sub-page-container [topic] = "'<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto provident dignissimos temporibus qui minus quam autem doloremque at illo odio maxime laboriosam nesciunt voluptas excepturi rem porro error, praesentium quasi!</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto provident dignissimos temporibus qui minus quam autem doloremque at illo odio maxime laboriosam nesciunt voluptas excepturi rem porro error, praesentium quasi!</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto provident dignissimos temporibus qui minus quam autem doloremque at illo odio maxime laboriosam nesciunt voluptas excepturi rem porro error, praesentium quasi!</p>'"></sub-page-container>
+<section class="menu-description">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <p>
+                    Hand made like your Mamma and Nonna’s. All of our dishes are made with the highest quality meat and fresh ingredients. Also! There are plenty of options for <span>vegan & glutton</span> free guests. <a href="#">Downloadable menu here.</a>
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="menu">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="menu-section">
+                    <h4>Choose your Meatball</h4>
+                    <ul class = "menu-list">
+                        <li>Nonna's Traditional</li>
+                        <li>Sausage, Pepper and Onion</li> 
+                        <li>Jeffy's Sausage</li> 
+                        <li>Chicken Parmigiana</li>
+                        <li>Chicken Marsala</li>
+                        <li>Chicken Buffalo Bleu</li> 
+                        <li>Vegetarian </li>
+                        <li>Spicy </li>
+                        <li>Mac and Cheese</li>
+                        <li>Mediterranean </li>
+                        <li>Jeffy's Crab Ball</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                <div class="menu-section">
+                    <h4>Choose your Style</h4>
+                    <ul class = "menu-list">
+                        <li>Meatballs on Top..............$10.95</li>
+                        <li>Meatball Smash................$8.95</li>
+                         <li>Bucket of Balls..............$23.95</li>
+                         <li>Meatball Flight..............$19.95</li>
+                         <li>Stoppe Trio..................$10.95</li>
+                         <li>Steak & Cheese Smash.........$10.95</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                 <div class="menu-section">
+                    <h4>Choose your Sauce</h4>
+                    <ul class = "menu-list">
+                        <li>Roasted Tomato</li>
+                        <li>Peppers and Onions</li>
+                        <li>Creamy Provolone</li>
+                        <li>Isabella's Signature Pesto</li>
+                        <li>Marsala Mushroom</li>
+                        <li>Buffalo Bleu</li>
+                        <li>Spicy Pork</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                  <div class="menu-section">
+                    <h4>Famiglia favorites</h4>
+                    <ul class = "menu-list">
+                        <li>Fried Calamari</li>
+                        <li>The Romano Panino</li>
+                        <li>Eggplant Panino</li>
+                        <li>Eggplant Stack</li>
+                        <li>Cheese Ravioli with 1 meatball</li>
+                        <li>Gnocchi</li>
+                        <li>Lasagna Bolognese Rollatini</li>
+                        <li>Baked Ziti</li>
+                        <li>Calabrese Pasta Fagioli</li>
+                        <li>Pasta Aglia Olio</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                 <div class="menu-section">
+                    <h4>Salads</h4>
+                    <ul class = "menu-list">
+                        <li>Antipasto Salad..............$7.95</li>
+                        <li>Caprese Salad................$7.50</li>
+                        <li>Roasted Vegetable Salad......$7.50</li>
+                        <li>Stoppe Salad.................$7.00</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                <div class="menu-section">
+                    <h4>Focaccia your way</h4>
+                    <ul class = "menu-list">
+                        <li>Focaccia with Meatballs...........$11.95</li>
+                        <li>Focaccia with Pesto...............$9.95</li>
+                        <li>Focaccia with Cheese..............$8.95</li>
+                        <li>Focaccia Grande...................$26.95</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+                <div class="menu-section">
+                    <h4>Signature Desserts</h4>
+                    <ul class = "menu-list">
+                        <li>Mini Cannoli..............$2.50</li>
+                        <li>Sfogliatelli..............$3.50</li>
+                        <li>Affogato al Cafe'.........$6.50</li>
+                        <li>Gelato di Limone...........$4.95</li>
+                        <li>Biscotti...................$3.95</li>
+                        <div class="menu-list-background"></div>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-offset-1 col-md-4">
+                <figure>
+                    <img src="assets/images/buffalo-chick-1.jpg" alt="">
+                    <figcaption>Buffalo Chicken Sandwich</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/pizza-2.jpg" alt="">
+                    <figcaption>Meatball Pizza</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/Calamari-4.jpg" alt="">
+                    <figcaption>Calamari</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/sausage-2.jpg" alt="">
+                    <figcaption>Jeffy’s Sausage Meatball</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/thumb.jpg" alt="">
+                    <figcaption>Fratatta and salad</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/canoli.jpg" alt="">
+                    <figcaption>Canoli</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/pasta.jpg" alt="">
+                    <figcaption>Calabrese Pasta Fagioli</figcaption>
+                </figure>
+                <figure>
+                    <img src="assets/images/eggplant.jpg" alt="">
+                    <figcaption>Eggplant</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+</section>
