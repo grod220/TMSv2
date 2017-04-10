@@ -1,4 +1,10 @@
-.hero-container{background: url(../../assets/images/hero.jpg) 0 0; height: 400px;background-size: cover; padding-right: 20%;}
+.hero-container{
+	background: url(../../assets/images/hero.jpg) 0 0;
+	height: 400px;
+	background-size: cover;
+	padding-right: 20%;
+	background-color: #674c4d;
+}
 .hero-container{color: #fff; font-size: 30px;}
 .hero-container .message-block{padding-top: 300px; text-align: right;}
 .sign {font-size: 25px; font-style: italic;}
