@@ -36,18 +36,10 @@
 
     ga('create', 'UA-55491347-1', 'auto');
     ga('send', 'pageview');
-
+    window.initMap = function(){};
   </script>
 </head>
 <body>
-
-  <!-- Progressive web app service worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      // empty service worker to allow homescreen popup
-      navigator.serviceWorker.register('sw.js');
-    }
-  </script>
 
   <!-- Facebook script for fb widget component  -->
   <script>
