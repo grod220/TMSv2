@@ -21,7 +21,7 @@ p{
     margin-top: -2px;
 }
 
-h5{ 
+h5{
     margin: 0;
     font-size: 43px;
     color: #fff;
@@ -69,18 +69,6 @@ h5{
     text-decoration: underline;
 }
 
-section.new {
-    background: #bd977a;
-}
-
-section.new p {
-    color: #fff;
-    font-weight: 600;
-    text-align: center;
-    margin: 0;
-    line-height: 60px;
-}
-
 section.founders {
     padding: 50px 0;
 }
@@ -102,7 +90,35 @@ section.founders {
     text-align: left;
 }
 
-@media only screen and (max-width: 768px) { 
+
+.wrapper-foto {
+    background-image: url(/assets/images/diningroom.jpg);
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+.feature-text p {
+   color: white;
+   padding: 50px;
+   display: inline-block;
+}
+
+.feature-text a {
+    text-decoration: none;
+    color: #fff
+}
+
+.wrapper-bg {
+    height: 200px;
+    background-color: #bd977a;
+    margin-right: -30px;
+    margin-left: -30px;
+}
+
+@media only screen and (max-width: 768px) {
     .description-item {
         margin-top: 0;
         margin-bottom: 20px;
@@ -119,17 +135,15 @@ section.founders {
         margin: 0px;
         height: 200px;
     }
+    .location-image.left {
+      margin-bottom: 10px;
+    }
     .background-wrapper {
         overflow: hidden;
         margin-top: -416px;
         margin-left: 0;
         margin-right: 0;
         padding: 430px 15px 0;;
-    }
-    section.new p {
-        font-weight: 400; 
-        line-height: 27px;
-        padding: 10px 0;
     }
     section.founders {
         padding: 30px 0;
@@ -145,10 +159,16 @@ section.founders {
         text-align: justify;
         font-size: 20px;
     }
+    .feature-text p {
+       padding: 40px;
+    }
+    .wrapper-bg {
+        height:inherit;
+    }
 }
 @media only screen and (min-width: 501px) {
-    h5{ 
+    h5{
         font-size: 38px;
-        line-height: 48px;  
+        line-height: 48px;
     }
 }
