@@ -7,7 +7,6 @@
 
   <!-- Mobile web tags -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="manifest" href="manifest.json" />
   <link rel="icon" href="assets/images/icon-256.png" sizes="256x256" />
   <link rel="icon" href="assets/images/icon-128.png" sizes="128x128" />
   <link rel="icon" href="assets/images/icon-64.png" sizes="64x64" />
@@ -36,18 +35,10 @@
 
     ga('create', 'UA-55491347-1', 'auto');
     ga('send', 'pageview');
-
+    window.initMap = function(){};
   </script>
 </head>
 <body>
-
-  <!-- Progressive web app service worker -->
-  <script>
-    if ('serviceWorker' in navigator) {
-      // empty service worker to allow homescreen popup
-      navigator.serviceWorker.register('sw.js');
-    }
-  </script>
 
   <!-- Facebook script for fb widget component  -->
   <script>
