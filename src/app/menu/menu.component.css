@@ -48,6 +48,13 @@ p {
     z-index: -1;
 }
 
+.highlight p {
+  background-color: #bd977a;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
 figure {
     margin-top: 50px;
     text-align: center;
@@ -75,7 +82,7 @@ figcaption {
     }
 }
 
-@media only screen and (max-width: 768px) { 
+@media only screen and (max-width: 768px) {
     p {
         text-align: justify;
     }
@@ -108,4 +115,3 @@ figcaption {
         padding-bottom: 30px;
     }
 }
-
