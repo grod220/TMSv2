@@ -122,7 +122,9 @@ section.founders {
     .background-wrapper {
         overflow: hidden;
         margin-top: -416px;
-        padding-top: 430px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 430px 15px 0;;
     }
     section.new p {
         font-weight: 400; 
