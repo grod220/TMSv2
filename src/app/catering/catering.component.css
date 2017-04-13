@@ -3,8 +3,8 @@ p {
     font-size: 22px;
 }
 
-.catering-description {
-    margin-bottom: 15px;
+ul {
+  margin-bottom: 22px;
 }
 
 .catering-description p {
@@ -68,7 +68,7 @@ p {
 
 .feedbacks {
    padding-bottom: 100px;
-   padding-top: 100px;
+   padding-top: 80px;
 }
 
 .feedbacks-people {
@@ -155,26 +155,9 @@ p {
 
 
 
-/*@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 992px) {
     .feedbacks-people {
-        height: 380px;
+        min-height: inherit;
         margin-bottom: 15px;
     }
-    .catering-description p {
-        font-size: 22px;
-    }
-
-    .corporate-options li p {
-        font-size: 24px;
-    }
-
-    .corporate-options li {
-        margin-top: 20px;
-    }
-    
-    .callback p {
-        font-size: 34px;
-        text-align: center;
-    }
-
-}*/
+}
