@@ -4,20 +4,20 @@
             <div class="row">
                 <div class="col-xs-12  col-sm-6 col-md-2 ">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Menus</a></li>
-                        <li><a href="#">Catering</a></li>
-                        <li><a href="#" >About Us</a></li>
-                        <li><a href="#" >Media</a></li>
+                        <li><a [routerLink] = "['']">Home</a></li>
+                        <li><a [routerLink] = "['/menu']">Menus</a></li>
+                        <li><a [routerLink] = "['/catering']">Catering</a></li>
+                        <li><a [routerLink] = "['/aboutus']">About Us</a></li>
+                        <li><a [routerLink] = "['/media']">Media</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-6 col-md-4 ">
                     <ul>
-                        <li><a href="#">407-270-6505</a></li>
+                        <li>407-270-6505</li>
                         <li>7325 Lake Underhill Road</li>
                         <br />
                         <li><a href="http://eat24hrs.com/restaurants/order2/menu.php?id=71250" target="_blank" rel="noopener">Pickup order w/ EAT24</a></li>
-                        <li><a href="#" >Delivery order</a></li>
+                        <li><a [routerLink] = "['delivery']">Delivery order</a></li>
                     </ul>
                 </div>
                 <div class="col-xs-12 col-sm-12 col-md-6 last">

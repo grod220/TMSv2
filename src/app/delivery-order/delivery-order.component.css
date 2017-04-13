@@ -17,6 +17,10 @@
     color: #c1c1c1;
 }
 
+.italic a {
+    color: #c1c1c1;
+}
+
 .italic span {
     text-decoration: underline;
     color: #c1c1c1!important;
@@ -49,7 +53,7 @@
     background: #a3a3a3;
     margin-left: 26px;
     margin-top: 40px;
-} 
+}
 
 .button-uber {
     padding-top: 60px;
