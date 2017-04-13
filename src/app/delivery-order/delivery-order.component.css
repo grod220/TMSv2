@@ -45,15 +45,23 @@
     padding-right: 15px;
 }
 
+.button-underline {
+    position: relative;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 .button-underline:after {
     content: '';
     display: block;
+    position: absolute;
     height: 1px;
-    width: 209px;
+    width: 210px;
     background: #a3a3a3;
-    margin-left: 26px;
-    margin-top: 40px;
-}
+    left: 50%;
+    bottom: 0;
+    margin-left: -105px;
+} 
 
 .button-uber {
     padding-top: 60px;
@@ -65,12 +73,10 @@
 
 .button-uber a {
     margin-top: 20px;
-    margin-left: 70px;
 }
 
 .bite-button {
     text-align: center;
-    margin-right: 90px;
     margin-top: 20px;
 }
 
@@ -91,7 +97,6 @@
 
 .amazon-button a {
     margin-top: 30px;
-    margin-left: 56px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -110,39 +115,13 @@
         line-height: 22px;
     }
 
-    .button-uber {
-        text-align: center;
-        margin: 0;
-        padding: 0;
-    }
-
-    .bite-button {
-        text-align: center;
-        margin: 0;
-        padding: 20px 0 0 0;
-    }
-
     .button-uber a{
         margin: 20px 0 0 0;
     }
 
-    .amazon-button {
-        text-align: center;
-        margin: 0;
-        padding: 20px 0 50px 0;
-        margin: 30px 0 0 0;
-    }
-
-    .amazon-button a {
-        margin-left: 0;
-    }
-
     .button-underline:after {
-        content: '';
-        display: block;
-        height: 1px;
         width: 100%;
-        background: #a3a3a3;
         margin-left: 0;
+        left: 0;
     }
 }
