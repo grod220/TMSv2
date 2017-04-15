@@ -32,7 +32,7 @@ p {
 }
 
 .menu-section .menu-list {
-    padding: 40px 0;
+    padding: 40px 30px 40px 0;
     position: relative;
     z-index: 100;
     color: #fff;
@@ -76,6 +76,21 @@ figcaption {
 }
 
 
+.menu-list li {
+    display: flex;
+}
+.menu-list li .dot {
+    width: 100%;
+    background-image: url('/assets/images/dot.jpg');
+    background-position: 1px 17px;
+    background-repeat: repeat-x;
+}
+
+.menu-list li .name, .menu-list li .price {
+    white-space: nowrap;
+}
+
+
 @media only screen and (max-width: 400px) {
     .menu-list li {
         font-size: 14px;
@@ -115,3 +130,9 @@ figcaption {
         padding-bottom: 30px;
     }
 }
+
+@media only screen and (max-width: 1200px) {
+    .menu-list li .dot {  
+        background-position: 1px 13px;
+    }
+} 
