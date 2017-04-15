@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, AfterViewInit } from '@angular/core';
 
 declare var $: any;
 
@@ -8,17 +8,18 @@ declare var $: any;
 	templateUrl: './header.component.html',
 	styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements AfterViewInit {
 
 	adress: string = "7325 Lake Underhill Road 407-270-6505";
-	ngOnInit(): void {
+	ngAfterViewInit(): void {
 		
-		this.toggleClickHandler();
-		this.appendAdditionalHTML();
-			
-		$(".menu-close").click(this.triggerMenuClick);
-		$(".navbar-collapse li a").click(this.triggerMenuClick);
-		
+		setTimeout(()=>{
+			this.toggleClickHandler();
+			this.appendAdditionalHTML();
+				
+			$(".menu-close").click(this.triggerMenuClick);
+			$(".navbar-collapse li a").click(this.triggerMenuClick);
+		});
 	}
 
 	private toggleClickHandler() {
