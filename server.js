@@ -4,8 +4,11 @@ const http = require('http');
 const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const chalk = require('chalk');
+const compression = require('compression');
 
 const app = express();
+
+app.use(compression());
 
 require('dotenv').config()
 
