@@ -39,6 +39,14 @@
   </script>
 </head>
 <body>
+  
+<!-- register service worker -->
+  <script>
+  if ('serviceWorker' in navigator) {
+    // empty service worker to allow homescreen popup
+    navigator.serviceWorker.register('sw.js');
+  }
+</script>
 
   <!-- Facebook script for fb widget component  -->
   <script>
