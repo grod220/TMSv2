@@ -5,10 +5,13 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const chalk = require('chalk');
 const compression = require('compression');
+const sslRedirect = require('heroku-ssl-redirect');
 
 const app = express();
 
 app.use(compression());
+
+app.use(sslRedirect());
 
 require('dotenv').config()
 
