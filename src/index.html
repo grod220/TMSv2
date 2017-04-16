@@ -39,12 +39,19 @@
   </script>
 </head>
 <body>
-  
+
 <!-- register service worker -->
   <script>
   if ('serviceWorker' in navigator) {
     // empty service worker to allow homescreen popup
-    navigator.serviceWorker.register('sw.js');
+    navigator.serviceWorker.register('sw.js')
+    .then(function(reg) {
+      // registration worked
+      console.log('Registration succeeded. Scope is ' + reg.scope);
+    }).catch(function(error) {
+      // registration failed
+      console.log('Registration failed with ' + error);
+    });
   }
 </script>
 
