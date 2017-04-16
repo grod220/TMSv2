@@ -107,3 +107,7 @@ header{padding-top:  45px;}
     0%{width: 247px;}
     100% {width: 0px;}
 }
+
+a.navbar-toggle, .menu-close,  .navbar-collapse li a{
+    cursor: pointer;
+}
