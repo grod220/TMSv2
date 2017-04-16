@@ -5,8 +5,10 @@ const bodyParser = require('body-parser');
 const morgan = require('morgan');
 const chalk = require('chalk');
 const compression = require('compression');
+var enforce = require('express-sslify');
 
 const app = express();
+app.use(enforce.HTTPS({ trustProtoHeader: true }))
 
 app.use(compression());
 
