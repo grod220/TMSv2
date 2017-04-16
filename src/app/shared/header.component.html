@@ -1,56 +1,61 @@
 <!-- Header Start Here -->
-    <header id="header">
-        <nav class="navbar navbar-default navbar-static-top">
-            <div class="container">
-                <div class="navbar-header">
-                  <a (click)="onClick($event)" #menu type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+<header id="header">
+    <nav class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a (click)="onClick($event)" #menu type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
-                  </a>
-                  <div class="small-logo-container hidden-lg hidden-md hidden-sm">
-                    <a [routerLink] = "['']"><img src="assets/images/minilogo.svg" width="180" alt="The Meatball Stoppe logo"/></a>
+                </a>
+                <div class="small-logo-container hidden-lg hidden-md hidden-sm">
+                    <a [routerLink]="['']"><img src="assets/images/minilogo.svg" width="180" alt="The Meatball Stoppe logo" /></a>
                 </div>
-                </div>
-                <div id="navbar" class="navbar-collapse collapse">
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <div id="close" class="menu-close" (click)="menu.click()">x</div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-5  first ">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a (click)="menu.click()" [routerLink]="['/menu']">Menus</a></li>
+                            <li><a (click)="menu.click()" [routerLink]="['/catering']">Catering</a></li>
+                        </ul>
 
-                   <div class="row">
-                        <div class="col-xs-12 col-sm-5  first ">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li><a (click)="menu.click()" [routerLink] = "['/menu']">Menus</a></li>
-                                <li><a (click)="menu.click()" [routerLink] = "['/catering']">Catering</a></li>
-                            </ul>
-
-                        </div>
-                        <div class="col-xs-12 col-sm-2 logo-container hidden-xs p-0">
-                            <div class="logo">
-                                <a [routerLink] = "['']"><img src="assets/images/logo.svg" width="360" class="img-responsive" alt="The Meatball Stoppe logo"/></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-5 last">
-                            <ul class="nav navbar-nav navbar-left">
-                                <li><a (click)="menu.click()" [routerLink] = "['/aboutus']">About Us</a></li>
-                                <li><a (click)="menu.click()" [routerLink] = "['/media']" >Media</a></li>
-                            </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-2 logo-container hidden-xs p-0">
+                        <div class="logo">
+                            <a [routerLink]="['']"><img src="assets/images/logo.svg" width="360" class="img-responsive" alt="The Meatball Stoppe logo"
+                                /></a>
                         </div>
                     </div>
-
-                </div><!--/.nav-collapse -->
+                    <div class="col-xs-12 col-sm-5 last">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a (click)="menu.click()" [routerLink]="['/aboutus']">About Us</a></li>
+                            <li><a (click)="menu.click()" [routerLink]="['/media']">Media</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="menu-address">
+                    <p>{{adress}}</p>
+                </div>
             </div>
-        </nav>
-
-    </header>
-    <!-- End -->
-
-    <!-- Head Section Start Here -->
-    <section class="head-block-shad">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-5  first"><a href="https://goo.gl/maps/eb4QHbvh3z42" target="_blank" rel="noopener">7325 Lake Underhill Road</a></div>
-                <div class="col-xs-12 col-sm-2 hidden-xs"></div>
-                <div class="col-xs-12 col-sm-5  last">407-270-6505</div>
-            </div>
+            <!--/.nav-collapse -->
         </div>
-    </section>
-    <!-- End -->
+    </nav>
+
+</header>
+<!-- End -->
+
+<!-- Head Section Start Here -->
+<section class="head-block-shad">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-5  first"><a href="https://goo.gl/maps/eb4QHbvh3z42" target="_blank" rel="noopener">7325 Lake Underhill Road</a></div>
+            <div class="col-xs-12 col-sm-2 hidden-xs"></div>
+            <div class="col-xs-12 col-sm-5  last">407-270-6505</div>
+        </div>
+    </div>
+</section>
+<!-- End -->
