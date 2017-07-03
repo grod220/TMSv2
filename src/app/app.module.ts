@@ -10,6 +10,7 @@ import { HomeComponent } from "./home/home.component";
 import { MenuComponent } from './menu/menu.component';
 
 import { AngularFireModule } from 'angularfire2';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
 
 export const firebaseConfig = {
   apiKey: "AIzaSyB04QxZsKSPCwUVLoUJzIduX82MYbr8FOg",
@@ -25,7 +26,7 @@ import { MainComponent } from './layouts/main.component';
 // Routing Module
 import { AppRoutingModule } from './app.routing';
 
-//Shared 
+//Shared
 import { HeaderComponent } from './shared/header.component';
 import { HeroComponent } from './shared/hero.component';
 import { ActionBarComponent } from './shared/action-bar.component';
@@ -72,6 +73,7 @@ import { SubPageContainerComponent } from './shared/sub-page-container.component
     FormsModule,
     HttpModule,
     AngularFireModule.initializeApp(firebaseConfig),
+    AngularFireDatabaseModule,
     RouterModule,
     AppRoutingModule
   ],
