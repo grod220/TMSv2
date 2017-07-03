@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { AngularFire, FirebaseObjectObservable } from 'angularfire2';
+import { AngularFireDatabase, FirebaseObjectObservable } from 'angularfire2/database';
 import { WindowRef } from './windowRef';
 
 @Component({
@@ -14,8 +14,8 @@ export class FbWidgetComponent implements OnInit {
   showAnimation: boolean = true;
   item: FirebaseObjectObservable<any>;
 
-  constructor(af: AngularFire) {
-    this.item = af.database.object('/mostRecentFBPost', { preserveSnapshot: true });
+  constructor(db: AngularFireDatabase) {
+    this.item = db.object('/mostRecentFBPost', { preserveSnapshot: true });
     this.item.subscribe(snapshot => {
       this.fbURL = snapshot.val().url;
       this.fbImageURL = snapshot.val().imageURL;
