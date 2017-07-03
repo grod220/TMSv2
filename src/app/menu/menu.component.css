@@ -55,6 +55,13 @@ p {
   text-align: center;
 }
 
+.highlightO p {
+  background-color: #d48146;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
 figure {
     margin-top: 50px;
     text-align: center;
@@ -132,7 +139,7 @@ figcaption {
 }
 
 @media only screen and (max-width: 1200px) {
-    .menu-list li .dot {  
+    .menu-list li .dot {
         background-position: 1px 13px;
     }
-} 
+}

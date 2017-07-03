@@ -35,11 +35,11 @@ span.description a {
     font-style: italic;
     text-align: right;
 }
-.archive:after {
+/*.archive:after {
     content: " \2192";
     color: #902e2d;
     cursor: pointer;
-}
+}*/
 
 p a {
     color: #902e2d;
@@ -107,7 +107,7 @@ h1 {
     p {
         font-size: 20px;
     }
-    
+
     .archive {
         margin-top: 15px;
     }
@@ -119,9 +119,9 @@ h1 {
         margin: 0;
     }
     .video-container {
-        width: auto; 
-        height: auto; 
-        position: static; 
+        width: auto;
+        height: auto;
+        position: static;
     }
     h1 {
         margin: 0;
