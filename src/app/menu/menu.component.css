@@ -97,6 +97,11 @@ figcaption {
     white-space: nowrap;
 }
 
+.super-script {
+  font-size: 14px;
+  vertical-align: super
+}
+
 
 @media only screen and (max-width: 400px) {
     .menu-list li {
