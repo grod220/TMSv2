@@ -9,7 +9,7 @@ header{padding-top:  45px;}
 .navbar-default .navbar-nav>li>a:hover{background: none; color:#902E2D; }
 .navbar-right {    float: right!important;   margin-right: 0px;}
 .head-block-shad{
-    background: rgba(103,77,77,0.64);
+    background: rgba(119, 103, 103, 0.64);
     color: #fff;
     position: absolute;
     width: 100%;
@@ -85,7 +85,7 @@ header{padding-top:  45px;}
     }
     .slideUp{
         animation: slideUp 0.3s ease;
-        animation-fill-mode: forwards; 
+        animation-fill-mode: forwards;
     }
     .slideShow {
         animation: slide 0.3s ease;
