@@ -93,7 +93,7 @@ section.founders {
 
 .wrapper-foto {
     background-image: url(/assets/images/diningroom.jpg);
-    height: 200px;
+    height: 250px;
     background-size: cover;
     background-position: center;
     margin-right: -30px;
@@ -112,7 +112,7 @@ section.founders {
 }
 
 .wrapper-bg {
-    height: 200px;
+    height: 250px;
     background-color: #bd977a;
     margin-right: -30px;
     margin-left: -30px;
