@@ -40,7 +40,7 @@
     "rxjs": "^5.4.2",
     "typescript": "^2.3.4",
     "zone.js": "^0.8.13",
-    "@angular/cli": "^1.2.1",
+    "@angular/cli": "^1.2.1"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.38",
