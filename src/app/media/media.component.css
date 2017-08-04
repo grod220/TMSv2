@@ -99,11 +99,6 @@ h1 {
      font-weight: 600;
 }
 
-.DDD {
-  /*height: 100px;
-  background-color: red;*/
-}
-
 @media only screen and (max-width: 768px) {
     figure img {
         max-width: 80%;
@@ -115,11 +110,6 @@ h1 {
 
     .archive {
         margin-top: 15px;
-    }
-
-    .DDD {
-      /*height: 100px;
-      background-color: blue;*/
     }
 }
 
